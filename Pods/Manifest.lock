@@ -1,0 +1,299 @@
+PODS:
+  - CYFFmpeg (0.3.3)
+  - CYPlayer (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory (= 3.0.2)
+    - CYPlayer/CYBorderLineView (= 3.0.2)
+    - CYPlayer/CYLoadingView (= 3.0.2)
+    - CYPlayer/CYObserverHelper (= 3.0.2)
+    - CYPlayer/CYOrentationObserver (= 3.0.2)
+    - CYPlayer/CYPrompt (= 3.0.2)
+    - CYPlayer/CYSlider (= 3.0.2)
+    - CYPlayer/CYUIFactory (= 3.0.2)
+    - CYPlayer/CYVideoPlayer (= 3.0.2)
+    - CYPlayer/CYVideoPlayerBackGR (= 3.0.2)
+    - Masonry
+  - CYPlayer/CYAttributesFactory (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYBorderLineView (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYLoadingView (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYObserverHelper (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYOrentationObserver (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYOrentationObserver/UseNativeOrentation (= 3.0.2)
+    - Masonry
+  - CYPlayer/CYOrentationObserver/UseNativeOrentation (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYPrompt (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYSlider (3.0.2):
+    - CYFFmpeg
+    - Masonry
+  - CYPlayer/CYUIFactory (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYUIFactory/Category (= 3.0.2)
+    - Masonry
+  - CYPlayer/CYUIFactory/Category (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - Masonry
+  - CYPlayer/CYVideoPlayer (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Base (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Control (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/GestureControl (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Header (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Model (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/MoreSetting (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Other (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Player (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Present (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Registrar (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Resource (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/TimerControl (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/VolBrigControl (= 3.0.2)
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Base (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Model
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Control (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Other
+    - Masonry
+  - CYPlayer/CYVideoPlayer/GestureControl (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Header (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Model (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Header
+    - CYPlayer/CYVideoPlayer/Resource
+    - Masonry
+  - CYPlayer/CYVideoPlayer/MoreSetting (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/MoreSetting/Secondary (= 3.0.2)
+    - CYPlayer/CYVideoPlayer/Other
+    - Masonry
+  - CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Other
+    - Masonry
+  - CYPlayer/CYVideoPlayer/MoreSetting/Secondary (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Other
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Other (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Base
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Player (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Control
+    - CYPlayer/CYVideoPlayer/GestureControl
+    - CYPlayer/CYVideoPlayer/MoreSetting
+    - CYPlayer/CYVideoPlayer/Present
+    - CYPlayer/CYVideoPlayer/Registrar
+    - CYPlayer/CYVideoPlayer/TimerControl
+    - CYPlayer/CYVideoPlayer/VolBrigControl
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Present (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Other
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Registrar (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - Masonry
+  - CYPlayer/CYVideoPlayer/Resource (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - Masonry
+  - CYPlayer/CYVideoPlayer/TimerControl (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - Masonry
+  - CYPlayer/CYVideoPlayer/VolBrigControl (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYAttributesFactory
+    - CYPlayer/CYBorderLineView
+    - CYPlayer/CYLoadingView
+    - CYPlayer/CYObserverHelper
+    - CYPlayer/CYOrentationObserver
+    - CYPlayer/CYPrompt
+    - CYPlayer/CYSlider
+    - CYPlayer/CYUIFactory
+    - CYPlayer/CYUIFactory/Category
+    - CYPlayer/CYVideoPlayer/Other
+    - Masonry
+  - CYPlayer/CYVideoPlayerBackGR (3.0.2):
+    - CYFFmpeg
+    - CYPlayer/CYObserverHelper
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CYPlayer (from `../CYPlayer`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CYFFmpeg
+    - Masonry
+
+EXTERNAL SOURCES:
+  CYPlayer:
+    :path: "../CYPlayer"
+
+SPEC CHECKSUMS:
+  CYFFmpeg: 031f5982ad33ae1481d93370b00b39c85a683cf6
+  CYPlayer: 562ce1bda0de2e883eaef9b82c72a42e7a4d5beb
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 674ba195ff86cd85ebab824510b5bba846fe1667
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module CYFFmpeg {
+  umbrella header "CYFFmpeg.h"
+
+  export *
+  module * { export * }
+}

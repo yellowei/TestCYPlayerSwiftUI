@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050F477C32DB9AEE9333D494 /* Pods_TestCYPlayerSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95423599BA56BF9D4BAC4632 /* Pods_TestCYPlayerSwiftUI.framework */; };
+		BC20F3EC288556EA00C312E9 /* TestCYPlayerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F3EB288556EA00C312E9 /* TestCYPlayerSwiftUIApp.swift */; };
+		BC20F3EE288556EA00C312E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F3ED288556EA00C312E9 /* ContentView.swift */; };
+		BC20F3F0288556EE00C312E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC20F3EF288556EE00C312E9 /* Assets.xcassets */; };
+		BC20F3F3288556EE00C312E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC20F3F2288556EE00C312E9 /* Preview Assets.xcassets */; };
+		BC20F3FD288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F3FC288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift */; };
+		BC20F407288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F406288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift */; };
+		BC20F409288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F408288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift */; };
+		BC20F416288557D100C312E9 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F415288557D100C312E9 /* PlayVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC20F3F9288556EE00C312E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC20F3E0288556E900C312E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC20F3E7288556EA00C312E9;
+			remoteInfo = TestCYPlayerSwiftUI;
+		};
+		BC20F403288556EE00C312E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC20F3E0288556E900C312E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC20F3E7288556EA00C312E9;
+			remoteInfo = TestCYPlayerSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02446F1EE6DAB808B29F7EC4 /* Pods-TestCYPlayerSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCYPlayerSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		17D489894C61B09599D0811A /* Pods-TestCYPlayerSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCYPlayerSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		95423599BA56BF9D4BAC4632 /* Pods_TestCYPlayerSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCYPlayerSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC20F3E8288556EA00C312E9 /* TestCYPlayerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCYPlayerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC20F3EB288556EA00C312E9 /* TestCYPlayerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCYPlayerSwiftUIApp.swift; sourceTree = "<group>"; };
+		BC20F3ED288556EA00C312E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC20F3EF288556EE00C312E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC20F3F2288556EE00C312E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC20F3F8288556EE00C312E9 /* TestCYPlayerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCYPlayerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC20F3FC288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCYPlayerSwiftUITests.swift; sourceTree = "<group>"; };
+		BC20F402288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCYPlayerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC20F406288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCYPlayerSwiftUIUITests.swift; sourceTree = "<group>"; };
+		BC20F408288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCYPlayerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC20F415288557D100C312E9 /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC20F3E5288556EA00C312E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F477C32DB9AEE9333D494 /* Pods_TestCYPlayerSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20F3F5288556EE00C312E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20F3FF288556EE00C312E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B08FD1444EBEFCA36865595 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02446F1EE6DAB808B29F7EC4 /* Pods-TestCYPlayerSwiftUI.debug.xcconfig */,
+				17D489894C61B09599D0811A /* Pods-TestCYPlayerSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DDF1E1E2722243A43C60B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95423599BA56BF9D4BAC4632 /* Pods_TestCYPlayerSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC20F3DF288556E900C312E9 = {
+			isa = PBXGroup;
+			children = (
+				BC20F3EA288556EA00C312E9 /* TestCYPlayerSwiftUI */,
+				BC20F3FB288556EE00C312E9 /* TestCYPlayerSwiftUITests */,
+				BC20F405288556EE00C312E9 /* TestCYPlayerSwiftUIUITests */,
+				BC20F3E9288556EA00C312E9 /* Products */,
+				1B08FD1444EBEFCA36865595 /* Pods */,
+				8DDF1E1E2722243A43C60B91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC20F3E9288556EA00C312E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC20F3E8288556EA00C312E9 /* TestCYPlayerSwiftUI.app */,
+				BC20F3F8288556EE00C312E9 /* TestCYPlayerSwiftUITests.xctest */,
+				BC20F402288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC20F3EA288556EA00C312E9 /* TestCYPlayerSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BC20F3EB288556EA00C312E9 /* TestCYPlayerSwiftUIApp.swift */,
+				BC20F3ED288556EA00C312E9 /* ContentView.swift */,
+				BC20F415288557D100C312E9 /* PlayVC.swift */,
+				BC20F3EF288556EE00C312E9 /* Assets.xcassets */,
+				BC20F3F1288556EE00C312E9 /* Preview Content */,
+			);
+			path = TestCYPlayerSwiftUI;
+			sourceTree = "<group>";
+		};
+		BC20F3F1288556EE00C312E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC20F3F2288556EE00C312E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC20F3FB288556EE00C312E9 /* TestCYPlayerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC20F3FC288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift */,
+			);
+			path = TestCYPlayerSwiftUITests;
+			sourceTree = "<group>";
+		};
+		BC20F405288556EE00C312E9 /* TestCYPlayerSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC20F406288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift */,
+				BC20F408288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = TestCYPlayerSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC20F3E7288556EA00C312E9 /* TestCYPlayerSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC20F40C288556EE00C312E9 /* Build configuration list for PBXNativeTarget "TestCYPlayerSwiftUI" */;
+			buildPhases = (
+				6C1DE926521D750D2EA10373 /* [CP] Check Pods Manifest.lock */,
+				BC20F3E4288556EA00C312E9 /* Sources */,
+				BC20F3E5288556EA00C312E9 /* Frameworks */,
+				BC20F3E6288556EA00C312E9 /* Resources */,
+				C0D97AC83F4115C0AF675128 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCYPlayerSwiftUI;
+			productName = TestCYPlayerSwiftUI;
+			productReference = BC20F3E8288556EA00C312E9 /* TestCYPlayerSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC20F3F7288556EE00C312E9 /* TestCYPlayerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC20F40F288556EE00C312E9 /* Build configuration list for PBXNativeTarget "TestCYPlayerSwiftUITests" */;
+			buildPhases = (
+				BC20F3F4288556EE00C312E9 /* Sources */,
+				BC20F3F5288556EE00C312E9 /* Frameworks */,
+				BC20F3F6288556EE00C312E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC20F3FA288556EE00C312E9 /* PBXTargetDependency */,
+			);
+			name = TestCYPlayerSwiftUITests;
+			productName = TestCYPlayerSwiftUITests;
+			productReference = BC20F3F8288556EE00C312E9 /* TestCYPlayerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC20F401288556EE00C312E9 /* TestCYPlayerSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC20F412288556EE00C312E9 /* Build configuration list for PBXNativeTarget "TestCYPlayerSwiftUIUITests" */;
+			buildPhases = (
+				BC20F3FE288556EE00C312E9 /* Sources */,
+				BC20F3FF288556EE00C312E9 /* Frameworks */,
+				BC20F400288556EE00C312E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC20F404288556EE00C312E9 /* PBXTargetDependency */,
+			);
+			name = TestCYPlayerSwiftUIUITests;
+			productName = TestCYPlayerSwiftUIUITests;
+			productReference = BC20F402288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC20F3E0288556E900C312E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BC20F3E7288556EA00C312E9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					BC20F3F7288556EE00C312E9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BC20F3E7288556EA00C312E9;
+					};
+					BC20F401288556EE00C312E9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = BC20F3E7288556EA00C312E9;
+					};
+				};
+			};
+			buildConfigurationList = BC20F3E3288556E900C312E9 /* Build configuration list for PBXProject "TestCYPlayerSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC20F3DF288556E900C312E9;
+			productRefGroup = BC20F3E9288556EA00C312E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC20F3E7288556EA00C312E9 /* TestCYPlayerSwiftUI */,
+				BC20F3F7288556EE00C312E9 /* TestCYPlayerSwiftUITests */,
+				BC20F401288556EE00C312E9 /* TestCYPlayerSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC20F3E6288556EA00C312E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC20F3F3288556EE00C312E9 /* Preview Assets.xcassets in Resources */,
+				BC20F3F0288556EE00C312E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20F3F6288556EE00C312E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20F400288556EE00C312E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C1DE926521D750D2EA10373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCYPlayerSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D97AC83F4115C0AF675128 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC20F3E4288556EA00C312E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC20F3EE288556EA00C312E9 /* ContentView.swift in Sources */,
+				BC20F3EC288556EA00C312E9 /* TestCYPlayerSwiftUIApp.swift in Sources */,
+				BC20F416288557D100C312E9 /* PlayVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20F3F4288556EE00C312E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC20F3FD288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20F3FE288556EE00C312E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC20F407288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift in Sources */,
+				BC20F409288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC20F3FA288556EE00C312E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC20F3E7288556EA00C312E9 /* TestCYPlayerSwiftUI */;
+			targetProxy = BC20F3F9288556EE00C312E9 /* PBXContainerItemProxy */;
+		};
+		BC20F404288556EE00C312E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC20F3E7288556EA00C312E9 /* TestCYPlayerSwiftUI */;
+			targetProxy = BC20F403288556EE00C312E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC20F40A288556EE00C312E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC20F40B288556EE00C312E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC20F40D288556EE00C312E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02446F1EE6DAB808B29F7EC4 /* Pods-TestCYPlayerSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestCYPlayerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TP4665PF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowei.www.testcyplyaer.TestCYPlayerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC20F40E288556EE00C312E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D489894C61B09599D0811A /* Pods-TestCYPlayerSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestCYPlayerSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TP4665PF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowei.www.testcyplyaer.TestCYPlayerSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC20F410288556EE00C312E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TP4665PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowei.www.testcyplyaer.TestCYPlayerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCYPlayerSwiftUI.app/TestCYPlayerSwiftUI";
+			};
+			name = Debug;
+		};
+		BC20F411288556EE00C312E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TP4665PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowei.www.testcyplyaer.TestCYPlayerSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestCYPlayerSwiftUI.app/TestCYPlayerSwiftUI";
+			};
+			name = Release;
+		};
+		BC20F413288556EE00C312E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TP4665PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowei.www.testcyplyaer.TestCYPlayerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestCYPlayerSwiftUI;
+			};
+			name = Debug;
+		};
+		BC20F414288556EE00C312E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TP4665PF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellowei.www.testcyplyaer.TestCYPlayerSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestCYPlayerSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC20F3E3288556E900C312E9 /* Build configuration list for PBXProject "TestCYPlayerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC20F40A288556EE00C312E9 /* Debug */,
+				BC20F40B288556EE00C312E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC20F40C288556EE00C312E9 /* Build configuration list for PBXNativeTarget "TestCYPlayerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC20F40D288556EE00C312E9 /* Debug */,
+				BC20F40E288556EE00C312E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC20F40F288556EE00C312E9 /* Build configuration list for PBXNativeTarget "TestCYPlayerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC20F410288556EE00C312E9 /* Debug */,
+				BC20F411288556EE00C312E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC20F412288556EE00C312E9 /* Build configuration list for PBXNativeTarget "TestCYPlayerSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC20F413288556EE00C312E9 /* Debug */,
+				BC20F414288556EE00C312E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC20F3E0288556E900C312E9 /* Project object */;
+}

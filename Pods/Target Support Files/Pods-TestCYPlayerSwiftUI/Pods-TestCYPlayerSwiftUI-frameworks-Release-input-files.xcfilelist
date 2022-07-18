@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI-frameworks.sh
+${PODS_ROOT}/CYFFmpeg/CYFFmpeg.framework
+${BUILT_PRODUCTS_DIR}/CYPlayer/CYPlayer.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

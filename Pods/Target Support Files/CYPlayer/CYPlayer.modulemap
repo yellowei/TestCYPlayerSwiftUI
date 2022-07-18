@@ -1,0 +1,6 @@
+framework module CYPlayer {
+  umbrella header "CYPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

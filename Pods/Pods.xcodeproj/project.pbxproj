@@ -1,0 +1,2090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		66A25B28D906E3E72C742C6768179753 /* CYFFmpeg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 085A2A587F9E59FC1C6007FF2A1B9135 /* Build configuration list for PBXAggregateTarget "CYFFmpeg" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CYFFmpeg;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0027D5EF2B2154B874EB0E313C7E0764 /* CYVideoPlayerAssetCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E67714C20CEBAE417EA9FE5C8DEA745 /* CYVideoPlayerAssetCarrier.m */; };
+		0106483D01C34CE00C1474AC56F95A1D /* CYVideoPlayerMoreSettingSecondaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C91C2C7ABC1FBD8A51EBDADC3BD9CA /* CYVideoPlayerMoreSettingSecondaryView.m */; };
+		01094498DD78AA788D46230033C46F28 /* CYVideoPlayerMoreSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 067D41B203EEBDB38398828064B5908D /* CYVideoPlayerMoreSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		020217A77EC7615373EE846E1C3BC5C3 /* UIViewController+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0B8429FB33AFB4BF8A501F815C9E56 /* UIViewController+CYExtension.m */; };
+		0265F7F691D971736B6984BF7C0F1859 /* CYVideoPlayerLeftControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AFE8E69914BD1F78A5E111F7D58099 /* CYVideoPlayerLeftControlView.m */; };
+		029BD6FF5ECD382CD89FA92071C37246 /* CYPCMAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73782C9F14E70C31F9EE661DE24846F1 /* CYPCMAudioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02F098E0CB3C4182126AF7BEFF837C3C /* CYVideoPlayerRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D407585D8BE05DE883475F7AF72FA /* CYVideoPlayerRegistrar.m */; };
+		0308C840EAA76013B4EEFEC831C01BE2 /* CYVolBrigControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 81335903F2B03D0B94591CB2C0E2EAA8 /* CYVolBrigControl.m */; };
+		032862AAA97548FA5DB647CB2CCDC927 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F89AF535039A0281611C9AA0423F8 /* MASConstraintMaker.m */; };
+		0476F5D2198C2F481F6B69E4ED0C63F9 /* CYVideoPlayerBottomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21049EA08EB175141CDF95E691C91084 /* CYVideoPlayerBottomControlView.m */; };
+		0496345245708352DE4106A7A2AB838B /* CYLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A73A25A7B276C0922656644776608E4A /* CYLoadingView.m */; };
+		0732BBF130BF2BE8B6E0502F7923B417 /* sonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895BB364876427AC522493C482EC1CF6 /* sonic.cpp */; };
+		078A4F76C037F93A52F92F2A87C5E23E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B11A62CB48A76A6BDB2E2E281FCDEA /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		07A8D5B601E93E8FF20554FFC6CC4F33 /* CYVideoPlayerCenterControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = E77EEE059520C4D2ABAEEF64484FF395 /* CYVideoPlayerCenterControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F00AE64A87E43DCB4DCC8A114D9EA5 /* CYFFmpegMetalView.h in Headers */ = {isa = PBXBuildFile; fileRef = C12BF5F4169BCDAC36FE6E835CA0E30A /* CYFFmpegMetalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F521822546BFCB071EEE1C7F5EA674 /* PlayESView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8A3737BEE9D40CB1EE1780A7334869 /* PlayESView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA6ACC3A951066D39B0AB5B83F63053 /* CYAttributesFactoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 825495AB76C383E63DB0F25232EF4237 /* CYAttributesFactoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2CAF2B7309A28647F17607A4D44994 /* CYVideoPlayerAssetCarrier.h in Headers */ = {isa = PBXBuildFile; fileRef = 338D02F01F36DD2EF1B8D2FB61D1700A /* CYVideoPlayerAssetCarrier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3ABB1255BBF191BD59C595FC2FED4F /* UINavigationController+CYVideoPlayerAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E55F0510DDC14B4189F7976F1A2C7185 /* UINavigationController+CYVideoPlayerAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12244A5A5444BE465E107234D83A2574 /* CYVideoPlayerPresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D96158E529C99A3CBC8A54ACA278A /* CYVideoPlayerPresentView.m */; };
+		1378B4DE00F9077E0D450CDAAE78010B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 317469F1431B140D17C3944698330C03 /* MASViewAttribute.m */; };
+		13D912863A009F7FF9DB2A103E3C749C /* CYVideoPlayerDraggingProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E169252F89DCD541579E45D87F23A9B /* CYVideoPlayerDraggingProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		151DA28C8A8461FC57603FF0072D6F94 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E37FB5844737FDE8FE373BDD18C35 /* Masonry-dummy.m */; };
+		160A18D16BC3EB4C4F648EE29DFA39F1 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FEE9C93FF8D1E202ED902C5926C5D6 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1718C8E53D3F99C43AC8D02474C1E422 /* UINavigationController+CYVideoPlayerAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB2FC8A5D7729FFC80FE0DF85DDB86 /* UINavigationController+CYVideoPlayerAdd.m */; };
+		18FB03E9547590FF9FC7013742408F39 /* CYVideoPlayerPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AFC03F1792BC6E65BA805AADCAE26C3 /* CYVideoPlayerPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190613F44A8911CF22203DE5B3B4F69D /* CYAttributesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AAA7FA7FF978108123CA02971AE070 /* CYAttributesFactory.m */; };
+		1AFCD7825AB7E129EF4E7B5E8E51EEE7 /* CYBorderlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49717898F30B9C840E91748E6091696F /* CYBorderlineView.m */; };
+		1CEFDD2390F640021E5767AD7A16B316 /* CYVideoPlayerBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E717AA4410B64E44DB4DA726409BCFC /* CYVideoPlayerBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D0B6D4367F31FA55A4B47E6112AFD93 /* CYCommonSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5747633E67E9D4E69F337B05F665AB /* CYCommonSlider.m */; };
+		1EA5844136FD2362E8A6D8E0F89FF28D /* CYAttributedStringKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAE7BC94D0C0E5B356D8E3137B599CC /* CYAttributedStringKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202C678F505BB5B2BEE86A794E30B1D1 /* sonic.h in Headers */ = {isa = PBXBuildFile; fileRef = 457DF4CC2E9E056B67D07C02E6005B1B /* sonic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		206A415A07DD20D2403EDF141858112F /* CYVideoPlayerMoreSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFBCBB54646C08B9AA783096D57456 /* CYVideoPlayerMoreSetting.m */; };
+		223CD19EAE3CF1968278C6DC0826CB8B /* CYVideoPlayerMoreSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E828DC98F48932CB8881892FC48DC7 /* CYVideoPlayerMoreSettingsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224F11CCFB63945FC91057CB758D3F68 /* CYButtonSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FFAA29D8D9B7FEC3205C21BC9C23A5E1 /* CYButtonSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224FB8400A882E6C067DF9E1695D9CC7 /* CYLabelSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5773A9EFE97EDDE7759F18843C3558 /* CYLabelSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235AE808FD25DB9580F4C378BF7A2CF1 /* CYLabelSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B03F9E525FE0CE45787DA765C8A8B4E1 /* CYLabelSlider.m */; };
+		239ADA71ED8F5FF82682FB197E7A110B /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7770A76FDD5C59812A55C6B96FFE4D95 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25845EBC45C384F572874557A97348F7 /* CYVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42732FE4DB0580E9B9EC025E924966B5 /* CYVideoPlayer.bundle */; };
+		270BD989082A0F11357933ABC32FFF19 /* CYVideoPlayerBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E466ED1E7F27CD3FF3A6DE9F4964C1 /* CYVideoPlayerBaseView.m */; };
+		28392E4EAF6961452E9866A364A21FB8 /* CYPromptConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD65CC179EA7869B0C4D8AB6738DCF /* CYPromptConfig.m */; };
+		298BA123031A86C7C8DC24A3FCF098D3 /* CYPlayerGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6D688F77A880D71C4770CF98406931 /* CYPlayerGestureControl.m */; };
+		2AF677FE3E93D3E7C0A7A09AF1DE8500 /* CYSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BB301C20E51F2CE233D7FD15EADE4 /* CYSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EA65F22A8A54979A3213D1008A93F87 /* CYPlayerDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41980D56F694F31C841B435EEEAAA5 /* CYPlayerDecoder.m */; };
+		32AA04756D267404426FBCB1BDBA0A59 /* CYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B22D92E2723E552E683377C6336E87 /* CYLabel.m */; };
+		33272B1439E856951CCAAFC8C082F5DF /* CYFFmpegMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB56314A5FF83A3477B8DC70EBC48E /* CYFFmpegMetalView.m */; };
+		3356A4137BFFD3E84C7AE766750F9D1A /* CYVideoPlayerTopControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F48196634B67E672B20393C81A9D90 /* CYVideoPlayerTopControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335D408EE6A9CE389B001E02D39622AF /* CYVideoPlayerMoreSettingSecondaryColCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F20AAD31BF423C8D0A055E9A69669 /* CYVideoPlayerMoreSettingSecondaryColCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B1A1C09BACF0DEE80422391D7E52C5 /* CYHardwareDecompressVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 286B844D6CB6FCE1CB7B1CA338DBE5AC /* CYHardwareDecompressVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35662592545D9FEB3B22C06C493BFF2C /* CYCTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9534795E2CC8855071033678C348F3A /* CYCTFrameParser.m */; };
+		364E20B15ED0FD6C4F2A5DE5200CA0D2 /* CYBorderlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 479B93229B6B3C37A39AA5D4064AAAC6 /* CYBorderlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B0C304F49DC59A47EEC564164C2328 /* CYCommonSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = CF42D72EDB412836DCFF6D2260FB3B7C /* CYCommonSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376D07C4B1013B2BE43995345C481353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		377A823F0DDF0F66B0ADFD8E18EEA793 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0E91EEAEC03755620501D722026635 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3849C809AC8794F58F555790AA12A40D /* CYVideoPlayerMoreSettingSecondary.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CAF5F4669A5DA0A2BA9B5F8746F44A /* CYVideoPlayerMoreSettingSecondary.m */; };
+		386AB041E6DDDB5EAF32D3761540912B /* CYVideoPlayerPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B63BD508705EFE9A1FDAE18E972C31 /* CYVideoPlayerPreviewCollectionViewCell.m */; };
+		38A073EC9397FDAFCB0DE3F5D1FAB14B /* CYPlayerGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFCF4EEEEB3728A6489B7D3832EDB3B /* CYPlayerGLView.m */; };
+		38B1B64A29DD55F4CC74FEDE8F0A9722 /* UIResponder+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4597C980AD8465A215A25EA4DF13ACBF /* UIResponder+CYExtension.m */; };
+		3944EA4209F2DF0B73C684F739456812 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A2453BD515A29CE90F2CEC7A1C45FF91 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C228140C763278090F514FEC7836D0 /* CYOpenALPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B97592F856E0133237FBB2A3A018B66 /* CYOpenALPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A38D56E4D4850F6FE32534F86853FFF /* Pods-TestCYPlayerSwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F08BA04A33DDA1FF2F556CAE337544C0 /* Pods-TestCYPlayerSwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAE2672A3A55B32A45EE5236A6CBA9B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B48FCCCE0CF709F026F9CEF05A25A13 /* MASViewConstraint.m */; };
+		3CC0744D9785613DB20C7AF03078C8F9 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B457B24DEF711C494D3913C7A66FEE9 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2984EFAD8B5FEEFFC040E693488A4B /* UIView+CYUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB72FE53D23A1D34EFC7819C8A97C54 /* UIView+CYUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D739A9F493BB2574B0395C9C7BD96AB /* CYVideoPlayerMoreSettingSecondaryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EC0E56F94AE786123242EC92FB6C41 /* CYVideoPlayerMoreSettingSecondaryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDAE2CCA3EA457E2C0E2AAEEB2B1D6F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AFFA8D150896C020F6E3166F968501 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B417AE94172606E2F2D729843A0117 /* CYScreenshotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F92FD3FCB8BB7B5CC09F78B8E962017 /* CYScreenshotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4284FD996C6213025ACFB77514514D3D /* CYVideoPlayerSelectTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6850984D712D45EAE5A0556D7A00D253 /* CYVideoPlayerSelectTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42ECBE5CD65CA7309CDE0C19430F4A26 /* CYVideoPlayerMoreSettingSecondaryColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6369E4D7A8B9B08B9F44F0839B0E03E /* CYVideoPlayerMoreSettingSecondaryColCell.m */; };
+		4393399172233AC24605604F6BF631B7 /* CYOpenALPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909414FF2E7B92EB8297DDC26E25050 /* CYOpenALPlayer.m */; };
+		43CEE55047F8A62628C73B9E2D6A0601 /* CYPlayerDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = BABBF9379D0C545505A0A98AAF40AACD /* CYPlayerDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44062F957B5A7A05E06CF010921766DD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 354FD74A5DF10222EB27919D8DE11667 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8F92B797ADC733C1EC703712B1CC1C /* CYVideoPlayerMoreSettingsFooterSlidersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 062345B3A9542ADCB615493D92EF3A83 /* CYVideoPlayerMoreSettingsFooterSlidersView.m */; };
+		4CEEF566A5466C32022519C3C19F3A9A /* CYVideoPlayerMoreSettingsSecondaryHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE6202B71F767D448BF9A3C28F3C65D /* CYVideoPlayerMoreSettingsSecondaryHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD6B5EFBEAA43A8607D72D3176AD056 /* CYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9615089BD5979F56D2C0391C683ADE5F /* CYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		512B6CCF8A371DCEA32AEDDD6B3B9B34 /* CYPCMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27951EDDA84A3638AF7EE4B4641AB6FB /* CYPCMAudioManager.m */; };
+		58718CA8ECC374505D95D69E3DBB4EB1 /* UIImagePickerController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF10C5C3AEE3B4A373A874F3B60B43E /* UIImagePickerController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3E24D0FDD20B2B543A0E95200B59D2 /* CYVideoPlayerRegistrar.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DE2D674E88B884C36CD1B95CE2B9A0 /* CYVideoPlayerRegistrar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AED14D8E71E4CDB7FD8148A2B1FDE5F /* CYAttributeWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E425E24BA1DC7A992E5E7822FD7FEB8 /* CYAttributeWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEDCD16FC4F28208E7CCDBD33A96AB9 /* CYVideoPlayerMoreSettingsColCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 144568252B09CF277F5D23FC55D397D0 /* CYVideoPlayerMoreSettingsColCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B6547E62F0D469A60F3793D5377CE11 /* CYPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 868FEB9524DCC2854291C0D1B5A85DFC /* CYPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DADA682706CC7D8EC76FFFB1B2AC46B /* CYCTFrameParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A223775D543B9F79D35A17919FF0828 /* CYCTFrameParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E5647FB7AD7BD0BCD9CDB746E5A12F4 /* CYVideoPlayerResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 390558090069BC9EF48F3A60D929947A /* CYVideoPlayerResources.m */; };
+		5F411C45DEAA4CEB2B3C96A571F422BE /* CYCTImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A338ADA395B40D942749B84A80423 /* CYCTImageData.m */; };
+		619FCACB5BA54235B6CD056CA8EEF77B /* CYAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 128FB8E8E5543CCCA38660BC3AEAC9E8 /* CYAudioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628FC230390AECB1DA522AD6EC8065B6 /* CYVideoPlayerResources.h in Headers */ = {isa = PBXBuildFile; fileRef = B22AE3A6E263F2E3B2903BA38B3EDC16 /* CYVideoPlayerResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64440E766E5C782BAA7DE8DEDF9BFF25 /* CYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FC59BEE0BB7C99250B91073478FBD2 /* CYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		646495000639B071D92338A8A2B990D5 /* CYVideoPlayerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E7D22FC97B0EFEC2DB067B6EB7CA78 /* CYVideoPlayerSettings.m */; };
+		64662A964524AAC78E3CAA9487115249 /* CYVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 380C25EEFCB08B70C95B5796B7AA227D /* CYVideoPlayer.m */; };
+		6483A2D26CA5E098BB3D562397D3F06A /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 678074A168188D09A3BFDA751EA9FA4A /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65521D02EED5504A0A82FC4C79279A70 /* CYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE433108EC179A4ABD2E22AC1907157B /* CYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659B12B98FE86B6D908D7F0E1BC0E7CC /* CYFFmpegPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2984FC54D700F08C396EE59A289BD4C8 /* CYFFmpegPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CC18914568DD3F5FCFE45F8B0885C2 /* NSObject+CYObserverHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B485B1A05B57AB59C1B3F090FDB74A5 /* NSObject+CYObserverHelper.m */; };
+		685DDC37A8B6C2CF9CC7ED5958041C96 /* CYCTData.m in Sources */ = {isa = PBXBuildFile; fileRef = 230195FE5128C33E26BBE41FB64C70F7 /* CYCTData.m */; };
+		6B5D673942D8C6857198D9ABD371DD91 /* CYGCDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 894E32CDC5C6948F4F31AA6A42A53C7B /* CYGCDManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B667AE14262B16E1337FF81C16A648C /* CYCTImageData.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D4476F99F186ABA10C8D37F8210E93 /* CYCTImageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFE84F1469782802241813FD580C619 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE860E787F9D5B15E3B24A1FF93A15 /* MASConstraint.m */; };
+		720F5E503D0AA733A109A8E05665603C /* CYVolBrigControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBC82E39518BE358E6B334762A5069D /* CYVolBrigControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BD1A9F5380916DF2E860A124CAB743 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B012BD4B0F40DA740990F6B0D8FADF9 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A68E1961A873BAFFDA024B73CAC2DF /* CYUIFactoryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD73986FD36C0D339500DEF04D25320 /* CYUIFactoryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FAF4D5D0020C0836C2DAA338DE8E7E /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CB438B362157793AF06951757D73C5 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		773EB2D4965110D138731196157E2722 /* PlayESView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2201E1BBAF43064F99E875A66D93E /* PlayESView.m */; };
+		78D7B12E24338971CA5CC40FB0B63B43 /* UIResponder+CYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BBD77CBDFED1BDFD8FB7AA70F3E6B8 /* UIResponder+CYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F984246C95046DCE3D6189505F02DD /* CYVideoPlayerPreviewCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 53AE0E0A5F3941AB45715FE190C2E51E /* CYVideoPlayerPreviewCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802CF912E824235CEB067E7C30CDE183 /* CYVideoPlayerTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8010127623E78AA42A1524618D757 /* CYVideoPlayerTipsView.m */; };
+		8075790C26CF18253043822EC9C02BD2 /* CYPlayerMetalShaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 940BAA8CDE703B5FED673A448C5C8444 /* CYPlayerMetalShaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		821352820F5006E7A2CDBD3C46E64AA4 /* CYVideoPlayerMoreSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53961D25BB796D45985CAFD4A46BBE6 /* CYVideoPlayerMoreSettingsView.m */; };
+		87B1D868BC3C501088C4D3413A08A695 /* CYUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD68A060DB1F3CB3E3BAEF5383711D5 /* CYUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		886CFC60115D041CAD0E42C2A794C62C /* UIViewController+CYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D06C52996834ACB2A7D12DF9303E88 /* UIViewController+CYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8881FEA853027CBBB1FC957A0DF287C9 /* CYOrentationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 58848E6C821E3993C90B76AF713F4EEB /* CYOrentationObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88E083E964AC1AAE3C2F48E9B64D9C71 /* CYLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0827CD9E19A14C0720F51E37F14633E4 /* CYLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B292BB63A603E8A97BA8160D37BD9B0 /* CYVideoPlayerPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A037718660D6D5900D3503562765076 /* CYVideoPlayerPreviewView.m */; };
+		8EBC1AAD150113DC05223C7EC602D233 /* CYVideoPlayerMoreSettingsColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBB3FE71D7AEEF6FC58C8D19A1DB7B3 /* CYVideoPlayerMoreSettingsColCell.m */; };
+		8EDB95AF2C99DED60F9A627DB90D8B7D /* CYVideoPlayerControlMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = E68327CA06679814807BB539A6F860E0 /* CYVideoPlayerControlMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F193FC872C1BFC3EF44947C8849623C /* CYFFmpegPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EC74D7903DDC746322E8273259CA7 /* CYFFmpegPlayer.m */; };
+		8F2783054135BB73D90AB03C15FEDB5C /* CYVideoPlayerMoreSettingsSecondaryHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CD57043C4E68C9785D9473807D3F2B /* CYVideoPlayerMoreSettingsSecondaryHeaderView.m */; };
+		937F91070BEB4C70F5F1FE8E88E15CDB /* CYButtonSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1AE8B700DA6E1FE3CA04010E63BC6A /* CYButtonSlider.m */; };
+		962426988C244C6D2285D854CE424954 /* CYTimerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6B090A5EB996051F5236AFA437CC24 /* CYTimerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D241A849ED59F85C5C097253C5CD75 /* UIViewController+CYVideoPlayerAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 075381586CF1D45FC33E6A5D7485E127 /* UIViewController+CYVideoPlayerAdd.m */; };
+		995E36632F7A2493D447A0DA174A6F2A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A52A1EA8A2269595CD23CDECE76845A /* MASLayoutConstraint.m */; };
+		9A5146E804D0CBBC901776143C1A466A /* CYPromptConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF49328BA4636980A4B52A0396F3D13 /* CYPromptConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA96DD01B3EC7A159A240B54B8110ED /* CYGCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09112E68C459E4C2BE2E3748E279CF44 /* CYGCDManager.m */; };
+		9AD551B121E73713EA78D0034B419186 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A7C8004C16BFD030D00CF10E8E19E1 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF0898B91EC943E2AACA29856ABB28B /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54127275C69CC079F0F884696307D5A6 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6B96EF7144BA3EC763C7656D90E192 /* UIViewController+CYVideoPlayerAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC33274C233DB3D9706AFCD6C255E98 /* UIViewController+CYVideoPlayerAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0256FF1603DEE27D8D7641BE0508B54 /* CYVideoPlayerDraggingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B09685333820646A77B477557E25BE28 /* CYVideoPlayerDraggingProgressView.m */; };
+		A518CD696B9800A1C2525977D2E6B71B /* CYVideoPlayerSelectTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C5972D05658F9C00661F1D76C7F5D /* CYVideoPlayerSelectTableView.m */; };
+		A78BB286E6DBFD980ECDA863E3402C1D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 602B266209F9551066CF301F037852F2 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F0308E9FCA1EFDDDBD7BB20C38954A /* UIImagePickerController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A97D986CFCECE012730AF27AF6AE4C50 /* UIImagePickerController+Extension.m */; };
+		A9CD0D0FBFBB240B071C188E7C8BA807 /* CYScreenshotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3082ED6110B785AFB82F80537E2B926A /* CYScreenshotView.m */; };
+		AA28A1487CF55684F9C7334BF6294CAD /* CYVideoPlayerControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8E51D23CE03F775817E719763D5595 /* CYVideoPlayerControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA91DBC89EF638E7DBA19FE75825518 /* CYVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93694C73559F5777C7D4146E29275441 /* CYVideoPlayerView.m */; };
+		AB82799BD6D3B3B3654E56975110C123 /* UIView+CYUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 107F45E9A04E6C8AF78B72499F0696A7 /* UIView+CYUIFactory.m */; };
+		AC6554B5B93C19A1E067FB066C9BC2A8 /* CYVideoPlayerControlViewEnumHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A20D10FD8FB455871E30AD3915FE65 /* CYVideoPlayerControlViewEnumHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6F749EC5D699D379381DABA2AD464C /* CYSonicManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAF9098DA10704B0F043672C8C21DF3 /* CYSonicManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA269C9ABC1851F91220E17FFA8724B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C25E5FA75B0BD329C2BD7B10EECB628 /* View+MASAdditions.m */; };
+		B06CED6C71E5BAD1CA092B08E9C31F53 /* CYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3091DFBB5B5703BCA4169B5F3BA075 /* CYPlayer-dummy.m */; };
+		B1546A545FBB0670C258A32BE32CE2C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B1DDE05906C44544411C76B08079186D /* CYPlayerGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C326C1B29B65941C1C179DA8C96ED9 /* CYPlayerGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B791F3E03970F44A9FF426DF61B4B9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B851FC4E815A1ADF709DEEA898D9C1C2 /* CYUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8632F6C158D1EAFCF3E5BEC14F000515 /* CYUIFactory.m */; };
+		B9C6CC0B26C1288A4D33EDD2A8A6AF53 /* CYMoreSettingsFooterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E70975C8E05F0A66AA371DE0531FB8 /* CYMoreSettingsFooterViewModel.m */; };
+		BA1A07A164A0F053DC296A531F9922F2 /* CYPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = D78219F22EB238A065B6500E0AC02DB8 /* CYPrompt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF4849158C3A5CF959CB807FE5A485B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7283B837B936D4E1E4547D2E5FF13D3B /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C174A84D3D266601F31BAC6084E3F5DD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9288FF0320A389F9A4DD09F9CDF84F /* MASCompositeConstraint.m */; };
+		C21B50775BD8CCF772D6335E15C4F85C /* CYCTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE5F38B846E70428CFE550F21D2F214 /* CYCTFrameParserConfig.m */; };
+		C2E0F0D4488ACB0BBB959592471DCFF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		C3D33B346BAA08699284E6352BB5F190 /* CYSonicManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69FB31D9858C988330BB7F6E8D409593 /* CYSonicManager.mm */; };
+		CC1881F8498E679B120DD42E6302C6D5 /* CYVideoPlayerMoreSettingsFooterSlidersView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89902EFDA68DB6C3E56F3CECB9254CEB /* CYVideoPlayerMoreSettingsFooterSlidersView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF379E3F1BD507807944C8D420A7CCD5 /* CYVideoPlayerControlMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2433C621B7DF883481595FA7532FEC1 /* CYVideoPlayerControlMaskView.m */; };
+		D0CE10477585A7A12CEC468D0410B505 /* CYVideoPlayerMoreSettingSecondary.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FF88CB71B8D8CE4A248EE3206B51F7 /* CYVideoPlayerMoreSettingSecondary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D186F7594A7E36468530D36C80877FDB /* Pods-TestCYPlayerSwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79057C352CE8A1D4C2B8AF430C88A243 /* Pods-TestCYPlayerSwiftUI-dummy.m */; };
+		D2C23F4183B77869E806543B768B18C9 /* CYTimerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8E501DF575D610C9E89ADB24612FDF /* CYTimerControl.m */; };
+		D2D5C3DC620249FAD1961B5EAF981DF7 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E11C8D7162ACD883BD5D9AAE792142C /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3905ABCF05A1762AE26A2F00EE74640 /* CYVideoPlayerBottomControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A43A3718A2DBF8FF9F7F9CB5939109A /* CYVideoPlayerBottomControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A7A621C3156E0AA41AD05E758A7E8D /* CYVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0014425D3BDBF594602A64198477CFF9 /* CYVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D630280592A537B3E5652FD78ABD7951 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		D7591AB94C41E0D16BD6BAAB35E0C77A /* CYOrentationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C7EB93CCECFDD4D67ABF43926ADAB1 /* CYOrentationObserver.m */; };
+		D78F5101086EB1CBA5F7E93BDD6CEE7C /* CYPlayerGestureControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B600EDD56AE7DA0BD1450645FB46256F /* CYPlayerGestureControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B547E73447A4E869DA1D95AE5ACC2E /* CYVideoPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6970836CA4A4043D52DFAA2482886CD /* CYVideoPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D807B04A9C59400ED86C0A665491B17A /* CYVideoPlayerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B44250527C340E7CA385742314FEFE /* CYVideoPlayerState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA5C28BD64FCCA8722032D3F1B77BD94 /* CYVideoPlayerTipsView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD63A47A3F139A70A57FA61FA748C93 /* CYVideoPlayerTipsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB37DAA8C4BB42A7BDF7C0DD18FC8560 /* CYMoreSettingsFooterViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 07116CCEDD7E97486BFCC22CB4E2DFE5 /* CYMoreSettingsFooterViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7CBF9A2E7FEB5DE7BC82375EFCFF56 /* CYCTData.h in Headers */ = {isa = PBXBuildFile; fileRef = 440DE5DA68C670FD26B0D06F266A0B37 /* CYCTData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAD5CB1DCE7260D9CDD4998F4F549D2 /* CYHardwareDecompressVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9DB22DDD94908ED0E7AC0660BAD8D /* CYHardwareDecompressVideo.m */; };
+		DE22711C29C2986E3FE27B68797E8774 /* CYPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = F8081870C636CB1FA243773479311C89 /* CYPrompt.m */; };
+		E0AE49CFC94CCEB93EF4D035B3A4F748 /* CYAttributedStringKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C083DAFA10EF39D22B7D4C233B23C /* CYAttributedStringKeys.m */; };
+		E3B71064F5232DB3855668DC8E198074 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 018494C054BE0791E69481C17E770E11 /* NSArray+MASAdditions.m */; };
+		EACF82817D2D7515FE670E13BCF74F37 /* CYVideoPlayerLeftControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE8AEF860A5BFDDD017906A18178F0 /* CYVideoPlayerLeftControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB70F9CF557EA397FC464551DBC1AC45 /* CYVideoPlayerPresentView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1A51B6E7EF26F2E9475BAB79934B9E /* CYVideoPlayerPresentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9BBDF4FAACB958180E5EF05823C84E /* CYVideoPlayerCenterControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DF188698F2053E0DC1AC388C71B90E /* CYVideoPlayerCenterControlView.m */; };
+		EC7EA645293FB13D8A3F441BAC37FA86 /* CYCTFrameParserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 09603C9B3222B5EA3A369DE6FFC9FA78 /* CYCTFrameParserConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA4D1841E5DF7140154940A3580457F /* NSObject+CYObserverHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C79B89B36DBD562658BC49F9F33EE5 /* NSObject+CYObserverHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF530E25D8CD64FBA5301D6A907A0DA4 /* CYSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 535D98A2A95C67210F492F01D1EACD84 /* CYSlider.m */; };
+		F17C8BE4BCC9F25C864689C37650613E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 616FC085AD126B0F400CE634C252A4A2 /* ViewController+MASAdditions.m */; };
+		F1F4F3CD2D8DF6039CDB7ADA48575A13 /* CYAttributeWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ABD4BE6D18F3F17EDF912F4B3F3DE1 /* CYAttributeWorker.m */; };
+		F1F8347A6858CDF58EA0B94A5516ACFA /* CYVideoPlayerSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D899BB4CAA0140DB63456E264D56B6 /* CYVideoPlayerSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F598028E497FB767543BE5CBC85416D6 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FB35A6BC4C71B96B0F294E62D35339C8 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7ADE754E7CCE956EAF3D8EF649CAAE8 /* CYVideoPlayerTopControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCFF2E9E6DF0F56E742ACBDB4FBECC6 /* CYVideoPlayerTopControlView.m */; };
+		FC161575F1633DE2AC529E4ADDF5F37B /* CYAttributesFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6913A56228FBB5297EA5C51FF1936E /* CYAttributesFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA438E74320AFF7CE807C3C3A595DD9 /* CYVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC6A219946AE2D4BCAD51ECD4389739 /* CYVideoPlayerControlView.m */; };
+		FF49B11A26DF8441B2F248A112BAACE9 /* CYAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F177E17D41854BC320BD174218A11F6 /* CYAudioManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CBF4521FECDA541EA190DA2FF70FC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A25B28D906E3E72C742C6768179753;
+			remoteInfo = CYFFmpeg;
+		};
+		B8BD25A837E216607D4A623C7F6ED9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A25B28D906E3E72C742C6768179753;
+			remoteInfo = CYFFmpeg;
+		};
+		BDA6716E2EAF0D8628E4FE851D519D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		DB11496CA94A3F5B9D043274B0ED43C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0950F7DBC73EC9ED22FE6C2437A39D5;
+			remoteInfo = CYPlayer;
+		};
+		E821F9FFB6351F3FA69492920676C1B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0014425D3BDBF594602A64198477CFF9 /* CYVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayer.h; path = CYPlayer/CYVideoPlayer/Player/CYVideoPlayer.h; sourceTree = "<group>"; };
+		005BB301C20E51F2CE233D7FD15EADE4 /* CYSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYSlider.h; path = CYPlayer/CYSlider/CYSlider.h; sourceTree = "<group>"; };
+		01211FC9DCBBE04AD24B73F667F3C29F /* talloc_stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = talloc_stack.h; path = CYFFmpeg.framework/Headers/talloc_stack.h; sourceTree = "<group>"; };
+		018494C054BE0791E69481C17E770E11 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0331E70A2AB18C92E9F52C2B081DD665 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = CYFFmpeg.framework/Headers/log.h; sourceTree = "<group>"; };
+		048F2D826A888741BD8FB25969C65259 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = CYFFmpeg.framework/Headers/des.h; sourceTree = "<group>"; };
+		04EC0E56F94AE786123242EC92FB6C41 /* CYVideoPlayerMoreSettingSecondaryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingSecondaryView.h; path = CYPlayer/CYVideoPlayer/MoreSetting/Secondary/CYVideoPlayerMoreSettingSecondaryView.h; sourceTree = "<group>"; };
+		062345B3A9542ADCB615493D92EF3A83 /* CYVideoPlayerMoreSettingsFooterSlidersView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingsFooterSlidersView.m; path = CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting/CYVideoPlayerMoreSettingsFooterSlidersView.m; sourceTree = "<group>"; };
+		063D27D0FDE74A6BA971FE969EBD2F67 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		0652EE3A7F81279937214576FEB6FA10 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		067D41B203EEBDB38398828064B5908D /* CYVideoPlayerMoreSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSetting.h; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerMoreSetting.h; sourceTree = "<group>"; };
+		06AAA7FA7FF978108123CA02971AE070 /* CYAttributesFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYAttributesFactory.m; path = CYPlayer/CYAttributesFactory/CYAttributesFactory.m; sourceTree = "<group>"; };
+		07116CCEDD7E97486BFCC22CB4E2DFE5 /* CYMoreSettingsFooterViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYMoreSettingsFooterViewModel.h; path = CYPlayer/CYVideoPlayer/Model/CYMoreSettingsFooterViewModel.h; sourceTree = "<group>"; };
+		075381586CF1D45FC33E6A5D7485E127 /* UIViewController+CYVideoPlayerAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYVideoPlayerAdd.m"; path = "CYPlayer/CYVideoPlayerBackGR/UIViewController+CYVideoPlayerAdd.m"; sourceTree = "<group>"; };
+		0827CD9E19A14C0720F51E37F14633E4 /* CYLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLoadingView.h; path = CYPlayer/CYLoadingView/CYLoadingView.h; sourceTree = "<group>"; };
+		09004C2883CE8652BB47F2865B0FE46E /* Pods-TestCYPlayerSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCYPlayerSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		09112E68C459E4C2BE2E3748E279CF44 /* CYGCDManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYGCDManager.m; path = CYPlayer/CYVideoPlayer/Model/CYGCDManager.m; sourceTree = "<group>"; };
+		09603C9B3222B5EA3A369DE6FFC9FA78 /* CYCTFrameParserConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYCTFrameParserConfig.h; path = CYPlayer/CYAttributesFactory/CYCTFrameParserConfig.h; sourceTree = "<group>"; };
+		0A43A3718A2DBF8FF9F7F9CB5939109A /* CYVideoPlayerBottomControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerBottomControlView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerBottomControlView.h; sourceTree = "<group>"; };
+		0BC182FCA196233A9CDD7EEA112CA10C /* machine_type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = machine_type.h; path = CYFFmpeg.framework/Headers/machine_type.h; sourceTree = "<group>"; };
+		0CC33274C233DB3D9706AFCD6C255E98 /* UIViewController+CYVideoPlayerAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYVideoPlayerAdd.h"; path = "CYPlayer/CYVideoPlayerBackGR/UIViewController+CYVideoPlayerAdd.h"; sourceTree = "<group>"; };
+		0E11C8D7162ACD883BD5D9AAE792142C /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		0F9CAF62322B22C95E77AB99BA4C2BAA /* Pods-TestCYPlayerSwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCYPlayerSwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		107F45E9A04E6C8AF78B72499F0696A7 /* UIView+CYUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYUIFactory.m"; path = "CYPlayer/CYUIFactory/Category/UIView+CYUIFactory.m"; sourceTree = "<group>"; };
+		10A7C8004C16BFD030D00CF10E8E19E1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		128FB8E8E5543CCCA38660BC3AEAC9E8 /* CYAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYAudioManager.h; path = CYPlayer/CYVideoPlayer/Model/CYAudioManager.h; sourceTree = "<group>"; };
+		144568252B09CF277F5D23FC55D397D0 /* CYVideoPlayerMoreSettingsColCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingsColCell.h; path = CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting/CYVideoPlayerMoreSettingsColCell.h; sourceTree = "<group>"; };
+		17E828DC98F48932CB8881892FC48DC7 /* CYVideoPlayerMoreSettingsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingsView.h; path = CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting/CYVideoPlayerMoreSettingsView.h; sourceTree = "<group>"; };
+		19A8010127623E78AA42A1524618D757 /* CYVideoPlayerTipsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerTipsView.m; path = CYPlayer/CYVideoPlayer/VolBrigControl/CYVideoPlayerTipsView.m; sourceTree = "<group>"; };
+		19E7D22FC97B0EFEC2DB067B6EB7CA78 /* CYVideoPlayerSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerSettings.m; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerSettings.m; sourceTree = "<group>"; };
+		1A037718660D6D5900D3503562765076 /* CYVideoPlayerPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerPreviewView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerPreviewView.m; sourceTree = "<group>"; };
+		1A41B3A508CE28440BAC80F1846F4326 /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = CYFFmpeg.framework/Headers/frame.h; sourceTree = "<group>"; };
+		1A4875702B6C2FF6757C1B56FF59B486 /* eval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eval.h; path = CYFFmpeg.framework/Headers/eval.h; sourceTree = "<group>"; };
+		1B6E7562784CB02B9676FEC528218C17 /* intreadwrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intreadwrite.h; path = CYFFmpeg.framework/Headers/intreadwrite.h; sourceTree = "<group>"; };
+		1B97592F856E0133237FBB2A3A018B66 /* CYOpenALPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYOpenALPlayer.h; path = CYPlayer/CYVideoPlayer/Model/CYOpenALPlayer.h; sourceTree = "<group>"; };
+		1BEA69DD050A04C4D3CABF642BF6F089 /* CYPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CYPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1CE0FA7E4F949E8CB14FB532A541ADBA /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		1E23E54FC10F900773F0D2BA2CCF2F6F /* hwcontext_d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_d3d11va.h; path = CYFFmpeg.framework/Headers/hwcontext_d3d11va.h; sourceTree = "<group>"; };
+		1E7A97C47EA3B166AF2B3259A8EEBC04 /* aacdecoder_lib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aacdecoder_lib.h; path = CYFFmpeg.framework/Headers/aacdecoder_lib.h; sourceTree = "<group>"; };
+		1E9267F2665D7493E081D1B69A28263D /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = CYFFmpeg.framework/Headers/error.h; sourceTree = "<group>"; };
+		1FAB617ADEEB4DC819691FC962CEB757 /* hwcontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext.h; path = CYFFmpeg.framework/Headers/hwcontext.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		201F2D039C50AA1E5498BA1A3BC467E6 /* vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdpau.h; path = CYFFmpeg.framework/Headers/vdpau.h; sourceTree = "<group>"; };
+		21049EA08EB175141CDF95E691C91084 /* CYVideoPlayerBottomControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerBottomControlView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerBottomControlView.m; sourceTree = "<group>"; };
+		217CB588E607E1561C65E74B5E3DF33F /* aacenc_lib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aacenc_lib.h; path = CYFFmpeg.framework/Headers/aacenc_lib.h; sourceTree = "<group>"; };
+		230195FE5128C33E26BBE41FB64C70F7 /* CYCTData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYCTData.m; path = CYPlayer/CYAttributesFactory/CYCTData.m; sourceTree = "<group>"; };
+		251D96158E529C99A3CBC8A54ACA278A /* CYVideoPlayerPresentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerPresentView.m; path = CYPlayer/CYVideoPlayer/Present/CYVideoPlayerPresentView.m; sourceTree = "<group>"; };
+		25A035D3C2292241CA33827601CBBDBF /* mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem.h; path = CYFFmpeg.framework/Headers/mem.h; sourceTree = "<group>"; };
+		272C0112F18CF1A6C94167D1C1F71D7F /* xvmc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xvmc.h; path = CYFFmpeg.framework/Headers/xvmc.h; sourceTree = "<group>"; };
+		27951EDDA84A3638AF7EE4B4641AB6FB /* CYPCMAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYPCMAudioManager.m; path = CYPlayer/CYVideoPlayer/Model/CYPCMAudioManager.m; sourceTree = "<group>"; };
+		286B844D6CB6FCE1CB7B1CA338DBE5AC /* CYHardwareDecompressVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYHardwareDecompressVideo.h; path = CYPlayer/CYVideoPlayer/Model/CYHardwareDecompressVideo.h; sourceTree = "<group>"; };
+		2984FC54D700F08C396EE59A289BD4C8 /* CYFFmpegPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYFFmpegPlayer.h; path = CYPlayer/CYVideoPlayer/Player/CYFFmpegPlayer.h; sourceTree = "<group>"; };
+		2BD9113A351A736C9F01D5A78B1961DF /* twofish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = twofish.h; path = CYFFmpeg.framework/Headers/twofish.h; sourceTree = "<group>"; };
+		2C25E5FA75B0BD329C2BD7B10EECB628 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		2CC8EACF6C1AFDFAB9C22B284D17EC23 /* channel_layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_layout.h; path = CYFFmpeg.framework/Headers/channel_layout.h; sourceTree = "<group>"; };
+		2CD73986FD36C0D339500DEF04D25320 /* CYUIFactoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUIFactoryHeader.h; path = CYPlayer/CYUIFactory/CYUIFactoryHeader.h; sourceTree = "<group>"; };
+		2D33AF24B20724D93C536978B0372197 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = CYFFmpeg.framework/Headers/config.h; sourceTree = "<group>"; };
+		2F92FD3FCB8BB7B5CC09F78B8E962017 /* CYScreenshotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYScreenshotView.h; path = CYPlayer/CYVideoPlayerBackGR/CYScreenshotView.h; sourceTree = "<group>"; };
+		3038C17F50BF6CD7FAAE3BF9B5DBF0F8 /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = CYFFmpeg.framework/Headers/attributes.h; sourceTree = "<group>"; };
+		3082ED6110B785AFB82F80537E2B926A /* CYScreenshotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYScreenshotView.m; path = CYPlayer/CYVideoPlayerBackGR/CYScreenshotView.m; sourceTree = "<group>"; };
+		317469F1431B140D17C3944698330C03 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		31DF188698F2053E0DC1AC388C71B90E /* CYVideoPlayerCenterControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerCenterControlView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerCenterControlView.m; sourceTree = "<group>"; };
+		32A1D2E2A8F22FF77CBB8EB67AC7E970 /* CYPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYPlayer; path = CYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F3B43962E1FCB8C5DDC401925FDF7A /* stereo3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo3d.h; path = CYFFmpeg.framework/Headers/stereo3d.h; sourceTree = "<group>"; };
+		338D02F01F36DD2EF1B8D2FB61D1700A /* CYVideoPlayerAssetCarrier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerAssetCarrier.h; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerAssetCarrier.h; sourceTree = "<group>"; };
+		34C5E2F2E2DF5C9CFBA488BD358C5D9D /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = display.h; path = CYFFmpeg.framework/Headers/display.h; sourceTree = "<group>"; };
+		354FD74A5DF10222EB27919D8DE11667 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		35E1E699F6A58976F62260814415DDF6 /* adler32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adler32.h; path = CYFFmpeg.framework/Headers/adler32.h; sourceTree = "<group>"; };
+		364E100B445705B578EBBF757F87A165 /* avfft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfft.h; path = CYFFmpeg.framework/Headers/avfft.h; sourceTree = "<group>"; };
+		36C628DC1F1B04614BC75C2C5D7D0F50 /* avfilter_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfilter_version.h; path = CYFFmpeg.framework/Headers/avfilter_version.h; sourceTree = "<group>"; };
+		380C25EEFCB08B70C95B5796B7AA227D /* CYVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayer.m; path = CYPlayer/CYVideoPlayer/Player/CYVideoPlayer.m; sourceTree = "<group>"; };
+		38ABD4BE6D18F3F17EDF912F4B3F3DE1 /* CYAttributeWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYAttributeWorker.m; path = CYPlayer/CYAttributesFactory/CYAttributeWorker.m; sourceTree = "<group>"; };
+		38F725DCE15711E66A1F15E079F34925 /* dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dxva2.h; path = CYFFmpeg.framework/Headers/dxva2.h; sourceTree = "<group>"; };
+		390558090069BC9EF48F3A60D929947A /* CYVideoPlayerResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerResources.m; path = CYPlayer/CYVideoPlayer/Resource/CYVideoPlayerResources.m; sourceTree = "<group>"; };
+		3909414FF2E7B92EB8297DDC26E25050 /* CYOpenALPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYOpenALPlayer.m; path = CYPlayer/CYVideoPlayer/Model/CYOpenALPlayer.m; sourceTree = "<group>"; };
+		3A52A1EA8A2269595CD23CDECE76845A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		3A5747633E67E9D4E69F337B05F665AB /* CYCommonSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYCommonSlider.m; path = CYPlayer/CYSlider/CYCommonSlider.m; sourceTree = "<group>"; };
+		3BCDAEC148CD30570AEECE6F8690030C /* mathematics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathematics.h; path = CYFFmpeg.framework/Headers/mathematics.h; sourceTree = "<group>"; };
+		3CE2201E1BBAF43064F99E875A66D93E /* PlayESView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PlayESView.m; path = CYPlayer/CYVideoPlayer/Player/PlayESView.m; sourceTree = "<group>"; };
+		3D136464FF44B9546189599571BAD6EF /* bswap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bswap.h; path = CYFFmpeg.framework/Headers/bswap.h; sourceTree = "<group>"; };
+		3DCF162EEBAC5E4D361EEBC7D216B7FD /* avassert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avassert.h; path = CYFFmpeg.framework/Headers/avassert.h; sourceTree = "<group>"; };
+		3DFE860E787F9D5B15E3B24A1FF93A15 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		3E425E24BA1DC7A992E5E7822FD7FEB8 /* CYAttributeWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYAttributeWorker.h; path = CYPlayer/CYAttributesFactory/CYAttributeWorker.h; sourceTree = "<group>"; };
+		3E67714C20CEBAE417EA9FE5C8DEA745 /* CYVideoPlayerAssetCarrier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerAssetCarrier.m; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerAssetCarrier.m; sourceTree = "<group>"; };
+		3E84BDD9343C782DB520CC693B7FBBCB /* avutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avutil.h; path = CYFFmpeg.framework/Headers/avutil.h; sourceTree = "<group>"; };
+		3EBC82E39518BE358E6B334762A5069D /* CYVolBrigControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVolBrigControl.h; path = CYPlayer/CYVideoPlayer/VolBrigControl/CYVolBrigControl.h; sourceTree = "<group>"; };
+		40675AA39318DEFC96EB92D7B856A29D /* swscale_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swscale_version.h; path = CYFFmpeg.framework/Headers/swscale_version.h; sourceTree = "<group>"; };
+		4140D01B0DD259205AF0C0615341630D /* jni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jni.h; path = CYFFmpeg.framework/Headers/jni.h; sourceTree = "<group>"; };
+		41BE64859FCA17E376F9CCBC84B14725 /* talloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = talloc.h; path = CYFFmpeg.framework/Headers/talloc.h; sourceTree = "<group>"; };
+		42732FE4DB0580E9B9EC025E924966B5 /* CYVideoPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CYVideoPlayer.bundle; path = CYPlayer/CYVideoPlayer/Resource/CYVideoPlayer.bundle; sourceTree = "<group>"; };
+		42B63BD508705EFE9A1FDAE18E972C31 /* CYVideoPlayerPreviewCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerPreviewCollectionViewCell.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerPreviewCollectionViewCell.m; sourceTree = "<group>"; };
+		435F669AC2D1C3D2074DC993D14BB6FA /* timecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timecode.h; path = CYFFmpeg.framework/Headers/timecode.h; sourceTree = "<group>"; };
+		440DE5DA68C670FD26B0D06F266A0B37 /* CYCTData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYCTData.h; path = CYPlayer/CYAttributesFactory/CYCTData.h; sourceTree = "<group>"; };
+		457DF4CC2E9E056B67D07C02E6005B1B /* sonic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sonic.h; path = CYPlayer/CYVideoPlayer/Model/sonic.h; sourceTree = "<group>"; };
+		4597C980AD8465A215A25EA4DF13ACBF /* UIResponder+CYExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+CYExtension.m"; path = "CYPlayer/CYOrentationObserver/UseNativeOrentation/UIResponder+CYExtension.m"; sourceTree = "<group>"; };
+		479B93229B6B3C37A39AA5D4064AAAC6 /* CYBorderlineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYBorderlineView.h; path = CYPlayer/CYBorderLineView/CYBorderlineView.h; sourceTree = "<group>"; };
+		47C7EB93CCECFDD4D67ABF43926ADAB1 /* CYOrentationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYOrentationObserver.m; path = CYPlayer/CYOrentationObserver/CYOrentationObserver.m; sourceTree = "<group>"; };
+		480BAD116D592EE3F50970676E4429B9 /* swscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swscale.h; path = CYFFmpeg.framework/Headers/swscale.h; sourceTree = "<group>"; };
+		49717898F30B9C840E91748E6091696F /* CYBorderlineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYBorderlineView.m; path = CYPlayer/CYBorderLineView/CYBorderlineView.m; sourceTree = "<group>"; };
+		4A223775D543B9F79D35A17919FF0828 /* CYCTFrameParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYCTFrameParser.h; path = CYPlayer/CYAttributesFactory/CYCTFrameParser.h; sourceTree = "<group>"; };
+		4A6DB89928FDC6E6A94F355942A0EA03 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = CYFFmpeg.framework/Headers/buffer.h; sourceTree = "<group>"; };
+		4AA42B19B451003A13A03D02C90C3872 /* xtea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xtea.h; path = CYFFmpeg.framework/Headers/xtea.h; sourceTree = "<group>"; };
+		4AD68A060DB1F3CB3E3BAEF5383711D5 /* CYUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYUIFactory.h; path = CYPlayer/CYUIFactory/CYUIFactory.h; sourceTree = "<group>"; };
+		4AFC03F1792BC6E65BA805AADCAE26C3 /* CYVideoPlayerPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerPreviewView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerPreviewView.h; sourceTree = "<group>"; };
+		4B485B1A05B57AB59C1B3F090FDB74A5 /* NSObject+CYObserverHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CYObserverHelper.m"; path = "CYPlayer/CYObserverHelper/NSObject+CYObserverHelper.m"; sourceTree = "<group>"; };
+		4B7C083DAFA10EF39D22B7D4C233B23C /* CYAttributedStringKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYAttributedStringKeys.m; path = CYPlayer/CYAttributesFactory/CYAttributedStringKeys.m; sourceTree = "<group>"; };
+		4D6913A56228FBB5297EA5C51FF1936E /* CYAttributesFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYAttributesFactory.h; path = CYPlayer/CYAttributesFactory/CYAttributesFactory.h; sourceTree = "<group>"; };
+		4E717AA4410B64E44DB4DA726409BCFC /* CYVideoPlayerBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerBaseView.h; path = CYPlayer/CYVideoPlayer/Base/CYVideoPlayerBaseView.h; sourceTree = "<group>"; };
+		4E9288FF0320A389F9A4DD09F9CDF84F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		4EC3C24DE2AE8D1944CB7D4C05648D8E /* Pods-TestCYPlayerSwiftUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCYPlayerSwiftUI-frameworks.sh"; sourceTree = "<group>"; };
+		4F6B090A5EB996051F5236AFA437CC24 /* CYTimerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYTimerControl.h; path = CYPlayer/CYVideoPlayer/TimerControl/CYTimerControl.h; sourceTree = "<group>"; };
+		5143DC1B2C80AC03822C3A8DAEF0848D /* CYPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYPlayer.modulemap; sourceTree = "<group>"; };
+		535D98A2A95C67210F492F01D1EACD84 /* CYSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYSlider.m; path = CYPlayer/CYSlider/CYSlider.m; sourceTree = "<group>"; };
+		53AE0E0A5F3941AB45715FE190C2E51E /* CYVideoPlayerPreviewCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerPreviewCollectionViewCell.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerPreviewCollectionViewCell.h; sourceTree = "<group>"; };
+		53AFE8E69914BD1F78A5E111F7D58099 /* CYVideoPlayerLeftControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerLeftControlView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerLeftControlView.m; sourceTree = "<group>"; };
+		54127275C69CC079F0F884696307D5A6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		54875C7CD32B98C374B428EB1D0DBA8B /* parseutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseutils.h; path = CYFFmpeg.framework/Headers/parseutils.h; sourceTree = "<group>"; };
+		54AFFA8D150896C020F6E3166F968501 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		552474BA385E288B92AAAAA63103CE29 /* avfiltergraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfiltergraph.h; path = CYFFmpeg.framework/Headers/avfiltergraph.h; sourceTree = "<group>"; };
+		55AF4C10A7DBF9ED4D3198DBE19A1AB9 /* tea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tea.h; path = CYFFmpeg.framework/Headers/tea.h; sourceTree = "<group>"; };
+		55E70975C8E05F0A66AA371DE0531FB8 /* CYMoreSettingsFooterViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYMoreSettingsFooterViewModel.m; path = CYPlayer/CYVideoPlayer/Model/CYMoreSettingsFooterViewModel.m; sourceTree = "<group>"; };
+		569E7158310D89DB22C02CDFEBF90D37 /* d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = d3d11va.h; path = CYFFmpeg.framework/Headers/d3d11va.h; sourceTree = "<group>"; };
+		56B11A62CB48A76A6BDB2E2E281FCDEA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		57AC5166B39F0DFC8BB2622E47581E91 /* avcodec_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec_version.h; path = CYFFmpeg.framework/Headers/avcodec_version.h; sourceTree = "<group>"; };
+		58848E6C821E3993C90B76AF713F4EEB /* CYOrentationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYOrentationObserver.h; path = CYPlayer/CYOrentationObserver/CYOrentationObserver.h; sourceTree = "<group>"; };
+		590BAED0C40801DAAEB6EFD9D258DB1B /* time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time.h; path = CYFFmpeg.framework/Headers/time.h; sourceTree = "<group>"; };
+		5AE6202B71F767D448BF9A3C28F3C65D /* CYVideoPlayerMoreSettingsSecondaryHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingsSecondaryHeaderView.h; path = CYPlayer/CYVideoPlayer/MoreSetting/Secondary/CYVideoPlayerMoreSettingsSecondaryHeaderView.h; sourceTree = "<group>"; };
+		5B7EB8375379C82C3E7C1CD049DB317D /* rational.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rational.h; path = CYFFmpeg.framework/Headers/rational.h; sourceTree = "<group>"; };
+		5D6E75EE531993CC52AFF8A7EF9BDDBA /* buffersrc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersrc.h; path = CYFFmpeg.framework/Headers/buffersrc.h; sourceTree = "<group>"; };
+		5E6EC74D7903DDC746322E8273259CA7 /* CYFFmpegPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYFFmpegPlayer.m; path = CYPlayer/CYVideoPlayer/Player/CYFFmpegPlayer.m; sourceTree = "<group>"; };
+		5EBB3FE71D7AEEF6FC58C8D19A1DB7B3 /* CYVideoPlayerMoreSettingsColCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingsColCell.m; path = CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting/CYVideoPlayerMoreSettingsColCell.m; sourceTree = "<group>"; };
+		5F177E17D41854BC320BD174218A11F6 /* CYAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYAudioManager.m; path = CYPlayer/CYVideoPlayer/Model/CYAudioManager.m; sourceTree = "<group>"; };
+		602B266209F9551066CF301F037852F2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		616FC085AD126B0F400CE634C252A4A2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		627E8AA3144FF83A20A19A4279C42B68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		62F327D5CE952B8B594BD95FE9728348 /* macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macros.h; path = CYFFmpeg.framework/Headers/macros.h; sourceTree = "<group>"; };
+		6442B8F082904CF379BAD2E1B270B752 /* pixfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixfmt.h; path = CYFFmpeg.framework/Headers/pixfmt.h; sourceTree = "<group>"; };
+		668C2F7AE580E39644110FA39B4EB558 /* murmur3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = murmur3.h; path = CYFFmpeg.framework/Headers/murmur3.h; sourceTree = "<group>"; };
+		678074A168188D09A3BFDA751EA9FA4A /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		67EADB8E98092E75A267A985B935EB94 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = CYFFmpeg.framework/Headers/common.h; sourceTree = "<group>"; };
+		6850984D712D45EAE5A0556D7A00D253 /* CYVideoPlayerSelectTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerSelectTableView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerSelectTableView.h; sourceTree = "<group>"; };
+		6852B4E586755131DAE1CDE2507FC8BD /* CYFFmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CYFFmpeg.framework; sourceTree = "<group>"; };
+		688913C254E6294DE9833A9FF02E07AC /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = CYFFmpeg.framework/Headers/rc4.h; sourceTree = "<group>"; };
+		69B44250527C340E7CA385742314FEFE /* CYVideoPlayerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerState.h; path = CYPlayer/CYVideoPlayer/Header/CYVideoPlayerState.h; sourceTree = "<group>"; };
+		69FB31D9858C988330BB7F6E8D409593 /* CYSonicManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CYSonicManager.mm; path = CYPlayer/CYVideoPlayer/Model/CYSonicManager.mm; sourceTree = "<group>"; };
+		6A5A338ADA395B40D942749B84A80423 /* CYCTImageData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYCTImageData.m; path = CYPlayer/CYAttributesFactory/CYCTImageData.m; sourceTree = "<group>"; };
+		6AE5F38B846E70428CFE550F21D2F214 /* CYCTFrameParserConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYCTFrameParserConfig.m; path = CYPlayer/CYAttributesFactory/CYCTFrameParserConfig.m; sourceTree = "<group>"; };
+		6B012BD4B0F40DA740990F6B0D8FADF9 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		6B48FCCCE0CF709F026F9CEF05A25A13 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		6C01E535B1DA4AF634A03A0F461E8DF2 /* dv_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dv_profile.h; path = CYFFmpeg.framework/Headers/dv_profile.h; sourceTree = "<group>"; };
+		6D8D5C38918966CCE083A7EE7C486966 /* mastering_display_metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastering_display_metadata.h; path = CYFFmpeg.framework/Headers/mastering_display_metadata.h; sourceTree = "<group>"; };
+		6DA52087768BAB03AAA5B917001F3DF6 /* avstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avstring.h; path = CYFFmpeg.framework/Headers/avstring.h; sourceTree = "<group>"; };
+		6DAB56314A5FF83A3477B8DC70EBC48E /* CYFFmpegMetalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYFFmpegMetalView.m; path = CYPlayer/CYVideoPlayer/Player/CYFFmpegMetalView.m; sourceTree = "<group>"; };
+		6E169252F89DCD541579E45D87F23A9B /* CYVideoPlayerDraggingProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerDraggingProgressView.h; path = CYPlayer/CYVideoPlayer/Other/CYVideoPlayerDraggingProgressView.h; sourceTree = "<group>"; };
+		6E4D407585D8BE05DE883475F7AF72FA /* CYVideoPlayerRegistrar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerRegistrar.m; path = CYPlayer/CYVideoPlayer/Registrar/CYVideoPlayerRegistrar.m; sourceTree = "<group>"; };
+		6E857E0509B538074A5759C6839F720D /* cast5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast5.h; path = CYFFmpeg.framework/Headers/cast5.h; sourceTree = "<group>"; };
+		6EF10C5C3AEE3B4A373A874F3B60B43E /* UIImagePickerController+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImagePickerController+Extension.h"; path = "CYPlayer/CYUIFactory/Category/UIImagePickerController+Extension.h"; sourceTree = "<group>"; };
+		6EF49328BA4636980A4B52A0396F3D13 /* CYPromptConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPromptConfig.h; path = CYPlayer/CYPrompt/CYPromptConfig.h; sourceTree = "<group>"; };
+		6FD957BCC52AC884349DA63268F91770 /* swresample_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swresample_version.h; path = CYFFmpeg.framework/Headers/swresample_version.h; sourceTree = "<group>"; };
+		7283B837B936D4E1E4547D2E5FF13D3B /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		72A20D10FD8FB455871E30AD3915FE65 /* CYVideoPlayerControlViewEnumHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerControlViewEnumHeader.h; path = CYPlayer/CYVideoPlayer/Header/CYVideoPlayerControlViewEnumHeader.h; sourceTree = "<group>"; };
+		72AE8AEF860A5BFDDD017906A18178F0 /* CYVideoPlayerLeftControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerLeftControlView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerLeftControlView.h; sourceTree = "<group>"; };
+		73782C9F14E70C31F9EE661DE24846F1 /* CYPCMAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPCMAudioManager.h; path = CYPlayer/CYVideoPlayer/Model/CYPCMAudioManager.h; sourceTree = "<group>"; };
+		73948D321297E6C3832E59ADE9736214 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		74719EA12AF79F133A4FA5199F3B239F /* x264_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x264_config.h; path = CYFFmpeg.framework/Headers/x264_config.h; sourceTree = "<group>"; };
+		7485474A6294BE17CDF32AD9B55FD6C6 /* Pods-TestCYPlayerSwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCYPlayerSwiftUI.modulemap"; sourceTree = "<group>"; };
+		75481660332472F1707DF86A223FD866 /* CYFFmpeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYFFmpeg.h; path = CYFFmpeg.framework/Headers/CYFFmpeg.h; sourceTree = "<group>"; };
+		76C022D10C1D304FF33F0BB4F045828B /* cmdutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmdutils.h; path = CYFFmpeg.framework/Headers/cmdutils.h; sourceTree = "<group>"; };
+		76CD57043C4E68C9785D9473807D3F2B /* CYVideoPlayerMoreSettingsSecondaryHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingsSecondaryHeaderView.m; path = CYPlayer/CYVideoPlayer/MoreSetting/Secondary/CYVideoPlayerMoreSettingsSecondaryHeaderView.m; sourceTree = "<group>"; };
+		773397A9154520E53F17B130B8E5EB8F /* avdevice_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdevice_version.h; path = CYFFmpeg.framework/Headers/avdevice_version.h; sourceTree = "<group>"; };
+		7770A76FDD5C59812A55C6B96FFE4D95 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		77B942D414F9FDE4CD8D230428355FB4 /* ffversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffversion.h; path = CYFFmpeg.framework/Headers/ffversion.h; sourceTree = "<group>"; };
+		78C326C1B29B65941C1C179DA8C96ED9 /* CYPlayerGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPlayerGLView.h; path = CYPlayer/CYVideoPlayer/Player/CYPlayerGLView.h; sourceTree = "<group>"; };
+		78CB438B362157793AF06951757D73C5 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		78D9DB22DDD94908ED0E7AC0660BAD8D /* CYHardwareDecompressVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYHardwareDecompressVideo.m; path = CYPlayer/CYVideoPlayer/Model/CYHardwareDecompressVideo.m; sourceTree = "<group>"; };
+		79057C352CE8A1D4C2B8AF430C88A243 /* Pods-TestCYPlayerSwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCYPlayerSwiftUI-dummy.m"; sourceTree = "<group>"; };
+		793F20AAD31BF423C8D0A055E9A69669 /* CYVideoPlayerMoreSettingSecondaryColCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingSecondaryColCell.h; path = CYPlayer/CYVideoPlayer/MoreSetting/Secondary/CYVideoPlayerMoreSettingSecondaryColCell.h; sourceTree = "<group>"; };
+		79B0A182984E071B4AAB7DDBE3A1615A /* mediacodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mediacodec.h; path = CYFFmpeg.framework/Headers/mediacodec.h; sourceTree = "<group>"; };
+		7B3091DFBB5B5703BCA4169B5F3BA075 /* CYPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYPlayer-dummy.m"; sourceTree = "<group>"; };
+		7B457B24DEF711C494D3913C7A66FEE9 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		7BEED41732E649F594A7DEB483954DC0 /* Pods-TestCYPlayerSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCYPlayerSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		7E12D3D080E1A6C254EF081AAD3E5611 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		7E8E51D23CE03F775817E719763D5595 /* CYVideoPlayerControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerControlView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerControlView.h; sourceTree = "<group>"; };
+		7F59ADD858273BA6203BB35CD30E4846 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = CYFFmpeg.framework/Headers/hash.h; sourceTree = "<group>"; };
+		81335903F2B03D0B94591CB2C0E2EAA8 /* CYVolBrigControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVolBrigControl.m; path = CYPlayer/CYVideoPlayer/VolBrigControl/CYVolBrigControl.m; sourceTree = "<group>"; };
+		825495AB76C383E63DB0F25232EF4237 /* CYAttributesFactoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYAttributesFactoryHeader.h; path = CYPlayer/CYAttributesFactory/CYAttributesFactoryHeader.h; sourceTree = "<group>"; };
+		839AFCAC21F382F6FBCAA5523F116466 /* vda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vda.h; path = CYFFmpeg.framework/Headers/vda.h; sourceTree = "<group>"; };
+		83CF2F2DC24FA606642483928CF2FCD5 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = CYFFmpeg.framework/Headers/aes.h; sourceTree = "<group>"; };
+		8409471EE1AE66AFE41C6B84D1207B8D /* postprocess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = postprocess.h; path = CYFFmpeg.framework/Headers/postprocess.h; sourceTree = "<group>"; };
+		84AB2FC8A5D7729FFC80FE0DF85DDB86 /* UINavigationController+CYVideoPlayerAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+CYVideoPlayerAdd.m"; path = "CYPlayer/CYVideoPlayerBackGR/UINavigationController+CYVideoPlayerAdd.m"; sourceTree = "<group>"; };
+		8632F6C158D1EAFCF3E5BEC14F000515 /* CYUIFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYUIFactory.m; path = CYPlayer/CYUIFactory/CYUIFactory.m; sourceTree = "<group>"; };
+		868FEB9524DCC2854291C0D1B5A85DFC /* CYPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPlayer.h; path = CYPlayer/CYVideoPlayer/CYPlayer.h; sourceTree = "<group>"; };
+		87E883C54F5BD376711F6626076A388D /* ffmpeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffmpeg.h; path = CYFFmpeg.framework/Headers/ffmpeg.h; sourceTree = "<group>"; };
+		894E32CDC5C6948F4F31AA6A42A53C7B /* CYGCDManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYGCDManager.h; path = CYPlayer/CYVideoPlayer/Model/CYGCDManager.h; sourceTree = "<group>"; };
+		895BB364876427AC522493C482EC1CF6 /* sonic.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = sonic.cpp; path = CYPlayer/CYVideoPlayer/Model/sonic.cpp; sourceTree = "<group>"; };
+		89902EFDA68DB6C3E56F3CECB9254CEB /* CYVideoPlayerMoreSettingsFooterSlidersView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingsFooterSlidersView.h; path = CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting/CYVideoPlayerMoreSettingsFooterSlidersView.h; sourceTree = "<group>"; };
+		8A12720E35041E0C1DAB849F7993A2E2 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = CYFFmpeg.framework/Headers/sha.h; sourceTree = "<group>"; };
+		8A28AF2515899F8E70EF46B9EFE168E5 /* crc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc.h; path = CYFFmpeg.framework/Headers/crc.h; sourceTree = "<group>"; };
+		8A3184722A928EFD9567F6A8E27826B7 /* postprocess_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = postprocess_version.h; path = CYFFmpeg.framework/Headers/postprocess_version.h; sourceTree = "<group>"; };
+		8CAE7BC94D0C0E5B356D8E3137B599CC /* CYAttributedStringKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYAttributedStringKeys.h; path = CYPlayer/CYAttributesFactory/CYAttributedStringKeys.h; sourceTree = "<group>"; };
+		8DDD65CC179EA7869B0C4D8AB6738DCF /* CYPromptConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYPromptConfig.m; path = CYPlayer/CYPrompt/CYPromptConfig.m; sourceTree = "<group>"; };
+		8F80F65678D519E14BB50ACB9E2D30E3 /* FDK_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDK_audio.h; path = CYFFmpeg.framework/Headers/FDK_audio.h; sourceTree = "<group>"; };
+		8FB72FE53D23A1D34EFC7819C8A97C54 /* UIView+CYUIFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYUIFactory.h"; path = "CYPlayer/CYUIFactory/Category/UIView+CYUIFactory.h"; sourceTree = "<group>"; };
+		90C79B89B36DBD562658BC49F9F33EE5 /* NSObject+CYObserverHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CYObserverHelper.h"; path = "CYPlayer/CYObserverHelper/NSObject+CYObserverHelper.h"; sourceTree = "<group>"; };
+		910DA82BE4D0ABD3D98885999FE7D416 /* CYFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYFFmpeg.debug.xcconfig; sourceTree = "<group>"; };
+		921979F77503D6B6553234E0A1FAE0EB /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = CYFFmpeg.framework/Headers/camellia.h; sourceTree = "<group>"; };
+		93694C73559F5777C7D4146E29275441 /* CYVideoPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerView.m; path = CYPlayer/CYVideoPlayer/Player/CYVideoPlayerView.m; sourceTree = "<group>"; };
+		940BAA8CDE703B5FED673A448C5C8444 /* CYPlayerMetalShaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPlayerMetalShaders.h; path = CYPlayer/CYVideoPlayer/Player/CYPlayerMetalShaders.h; sourceTree = "<group>"; };
+		9615089BD5979F56D2C0391C683ADE5F /* CYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLogger.h; path = CYPlayer/CYVideoPlayer/Header/CYLogger.h; sourceTree = "<group>"; };
+		98D899BB4CAA0140DB63456E264D56B6 /* CYVideoPlayerSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerSettings.h; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerSettings.h; sourceTree = "<group>"; };
+		99FEE9C93FF8D1E202ED902C5926C5D6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		9B1AE8B700DA6E1FE3CA04010E63BC6A /* CYButtonSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYButtonSlider.m; path = CYPlayer/CYSlider/CYButtonSlider.m; sourceTree = "<group>"; };
+		9C9BF783DDEF008D1E8AAB410AD14639 /* vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vaapi.h; path = CYFFmpeg.framework/Headers/vaapi.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15AFEBD2AEE396524AD1CDA60571E3A /* hwcontext_cuda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_cuda.h; path = CYFFmpeg.framework/Headers/hwcontext_cuda.h; sourceTree = "<group>"; };
+		A164D119D8B748FE016EF88C8A30837B /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = CYFFmpeg.framework/Headers/blowfish.h; sourceTree = "<group>"; };
+		A1D495FDEB531D5E16EDD2462538ADC2 /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = CYFFmpeg.framework/Headers/avcodec.h; sourceTree = "<group>"; };
+		A2453BD515A29CE90F2CEC7A1C45FF91 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		A3E1FA1EB5B586257FB0B3C220905536 /* hwcontext_vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vaapi.h; path = CYFFmpeg.framework/Headers/hwcontext_vaapi.h; sourceTree = "<group>"; };
+		A53961D25BB796D45985CAFD4A46BBE6 /* CYVideoPlayerMoreSettingsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingsView.m; path = CYPlayer/CYVideoPlayer/MoreSetting/MoreSetting/CYVideoPlayerMoreSettingsView.m; sourceTree = "<group>"; };
+		A5CAF5F4669A5DA0A2BA9B5F8746F44A /* CYVideoPlayerMoreSettingSecondary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingSecondary.m; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerMoreSettingSecondary.m; sourceTree = "<group>"; };
+		A620C2BA1F30A5EBAC5BADDAE0D06C93 /* dirac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dirac.h; path = CYFFmpeg.framework/Headers/dirac.h; sourceTree = "<group>"; };
+		A68F5BB2EB6D506ECF6B9ACE44CB6370 /* opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opt.h; path = CYFFmpeg.framework/Headers/opt.h; sourceTree = "<group>"; };
+		A73A25A7B276C0922656644776608E4A /* CYLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLoadingView.m; path = CYPlayer/CYLoadingView/CYLoadingView.m; sourceTree = "<group>"; };
+		A8573B92C1034C3DA73A21E592B69689 /* spherical.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = spherical.h; path = CYFFmpeg.framework/Headers/spherical.h; sourceTree = "<group>"; };
+		A97D986CFCECE012730AF27AF6AE4C50 /* UIImagePickerController+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImagePickerController+Extension.m"; path = "CYPlayer/CYUIFactory/Category/UIImagePickerController+Extension.m"; sourceTree = "<group>"; };
+		ACD644C4F1582B477C627D975654BD36 /* hwcontext_dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_dxva2.h; path = CYFFmpeg.framework/Headers/hwcontext_dxva2.h; sourceTree = "<group>"; };
+		ADD63A47A3F139A70A57FA61FA748C93 /* CYVideoPlayerTipsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerTipsView.h; path = CYPlayer/CYVideoPlayer/VolBrigControl/CYVideoPlayerTipsView.h; sourceTree = "<group>"; };
+		AF2C5972D05658F9C00661F1D76C7F5D /* CYVideoPlayerSelectTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerSelectTableView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerSelectTableView.m; sourceTree = "<group>"; };
+		B03F9E525FE0CE45787DA765C8A8B4E1 /* CYLabelSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLabelSlider.m; path = CYPlayer/CYSlider/CYLabelSlider.m; sourceTree = "<group>"; };
+		B09685333820646A77B477557E25BE28 /* CYVideoPlayerDraggingProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerDraggingProgressView.m; path = CYPlayer/CYVideoPlayer/Other/CYVideoPlayerDraggingProgressView.m; sourceTree = "<group>"; };
+		B0B22D92E2723E552E683377C6336E87 /* CYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLabel.m; path = CYPlayer/CYAttributesFactory/CYLabel.m; sourceTree = "<group>"; };
+		B0DE2D674E88B884C36CD1B95CE2B9A0 /* CYVideoPlayerRegistrar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerRegistrar.h; path = CYPlayer/CYVideoPlayer/Registrar/CYVideoPlayerRegistrar.h; sourceTree = "<group>"; };
+		B22AE3A6E263F2E3B2903BA38B3EDC16 /* CYVideoPlayerResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerResources.h; path = CYPlayer/CYVideoPlayer/Resource/CYVideoPlayerResources.h; sourceTree = "<group>"; };
+		B2DE91D43EDE8802616BB8B1EC396448 /* downmix_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = downmix_info.h; path = CYFFmpeg.framework/Headers/downmix_info.h; sourceTree = "<group>"; };
+		B30C0050FBFCCC15C6382B21E8474A9A /* qsv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qsv.h; path = CYFFmpeg.framework/Headers/qsv.h; sourceTree = "<group>"; };
+		B3293D77A2699D5928A0D379923BB096 /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = CYFFmpeg.framework/Headers/base64.h; sourceTree = "<group>"; };
+		B5F05F59CD0E7411F6D66E7E8EE611B3 /* threadmessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threadmessage.h; path = CYFFmpeg.framework/Headers/threadmessage.h; sourceTree = "<group>"; };
+		B600EDD56AE7DA0BD1450645FB46256F /* CYPlayerGestureControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPlayerGestureControl.h; path = CYPlayer/CYVideoPlayer/GestureControl/CYPlayerGestureControl.h; sourceTree = "<group>"; };
+		B6369E4D7A8B9B08B9F44F0839B0E03E /* CYVideoPlayerMoreSettingSecondaryColCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingSecondaryColCell.m; path = CYPlayer/CYVideoPlayer/MoreSetting/Secondary/CYVideoPlayerMoreSettingSecondaryColCell.m; sourceTree = "<group>"; };
+		B6E466ED1E7F27CD3FF3A6DE9F4964C1 /* CYVideoPlayerBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerBaseView.m; path = CYPlayer/CYVideoPlayer/Base/CYVideoPlayerBaseView.m; sourceTree = "<group>"; };
+		B7794C3191953DBCEAD4782195E7EF9D /* cpu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = CYFFmpeg.framework/Headers/cpu.h; sourceTree = "<group>"; };
+		B7DFBCBB54646C08B9AA783096D57456 /* CYVideoPlayerMoreSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSetting.m; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerMoreSetting.m; sourceTree = "<group>"; };
+		B856C5FBB7F5C8DBA154AA3F4134C282 /* buffersink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersink.h; path = CYFFmpeg.framework/Headers/buffersink.h; sourceTree = "<group>"; };
+		B8BC03FC829BE58A98BE1194EE65385A /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = CYFFmpeg.framework/Headers/md5.h; sourceTree = "<group>"; };
+		B9A35001547958C7DA810A970AAE0EFB /* avio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avio.h; path = CYFFmpeg.framework/Headers/avio.h; sourceTree = "<group>"; };
+		BABBF9379D0C545505A0A98AAF40AACD /* CYPlayerDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPlayerDecoder.h; path = CYPlayer/CYVideoPlayer/Model/CYPlayerDecoder.h; sourceTree = "<group>"; };
+		BB0F45364FC3236B176B2AF955A389BA /* CYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYPlayer.release.xcconfig; sourceTree = "<group>"; };
+		BB758940407CBB6589E748631034B972 /* replaygain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = replaygain.h; path = CYFFmpeg.framework/Headers/replaygain.h; sourceTree = "<group>"; };
+		BD89ABFBF02A8AE57FD53DE883A46AFE /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = CYFFmpeg.framework/Headers/ripemd.h; sourceTree = "<group>"; };
+		BE55C705453BD39593AEB2011C2EF501 /* random_seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_seed.h; path = CYFFmpeg.framework/Headers/random_seed.h; sourceTree = "<group>"; };
+		BE5773A9EFE97EDDE7759F18843C3558 /* CYLabelSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLabelSlider.h; path = CYPlayer/CYSlider/CYLabelSlider.h; sourceTree = "<group>"; };
+		BF3FC1909B2FFEBAE7D337C0C304AF27 /* swresample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swresample.h; path = CYFFmpeg.framework/Headers/swresample.h; sourceTree = "<group>"; };
+		C12BF5F4169BCDAC36FE6E835CA0E30A /* CYFFmpegMetalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYFFmpegMetalView.h; path = CYPlayer/CYVideoPlayer/Player/CYFFmpegMetalView.h; sourceTree = "<group>"; };
+		C2FF88CB71B8D8CE4A248EE3206B51F7 /* CYVideoPlayerMoreSettingSecondary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerMoreSettingSecondary.h; path = CYPlayer/CYVideoPlayer/Model/CYVideoPlayerMoreSettingSecondary.h; sourceTree = "<group>"; };
+		C4E7FFF92B11F079FBDFE7C51B3270CB /* motion_vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = motion_vector.h; path = CYFFmpeg.framework/Headers/motion_vector.h; sourceTree = "<group>"; };
+		C5BBD77CBDFED1BDFD8FB7AA70F3E6B8 /* UIResponder+CYExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+CYExtension.h"; path = "CYPlayer/CYOrentationObserver/UseNativeOrentation/UIResponder+CYExtension.h"; sourceTree = "<group>"; };
+		C678F428904CB2904F6FA85AEC505C82 /* CYFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYFFmpeg.release.xcconfig; sourceTree = "<group>"; };
+		C9D4B5942BDF05FA5562307A533BA433 /* hwcontext_vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vdpau.h; path = CYFFmpeg.framework/Headers/hwcontext_vdpau.h; sourceTree = "<group>"; };
+		CACC8645443D4E15F7003C7386D0C7F1 /* x264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x264.h; path = CYFFmpeg.framework/Headers/x264.h; sourceTree = "<group>"; };
+		CC8A3737BEE9D40CB1EE1780A7334869 /* PlayESView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PlayESView.h; path = CYPlayer/CYVideoPlayer/Player/PlayESView.h; sourceTree = "<group>"; };
+		CCA7FE0156B15012BA2ED32298B4DBC8 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = CYFFmpeg.framework/Headers/hmac.h; sourceTree = "<group>"; };
+		CE433108EC179A4ABD2E22AC1907157B /* CYPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYPlayer-umbrella.h"; sourceTree = "<group>"; };
+		CF42D72EDB412836DCFF6D2260FB3B7C /* CYCommonSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYCommonSlider.h; path = CYPlayer/CYSlider/CYCommonSlider.h; sourceTree = "<group>"; };
+		CFEF32405107FF0F6045DEC3D5B825D4 /* Pods-TestCYPlayerSwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCYPlayerSwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5D94CC3AE502CC6DAE82C79181A19B6 /* genericStds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericStds.h; path = CYFFmpeg.framework/Headers/genericStds.h; sourceTree = "<group>"; };
+		D622DBF9AEDB5FD06EBCD1B98A4AF60E /* CYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		D6970836CA4A4043D52DFAA2482886CD /* CYVideoPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerView.h; path = CYPlayer/CYVideoPlayer/Player/CYVideoPlayerView.h; sourceTree = "<group>"; };
+		D6FC59BEE0BB7C99250B91073478FBD2 /* CYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLabel.h; path = CYPlayer/CYAttributesFactory/CYLabel.h; sourceTree = "<group>"; };
+		D78219F22EB238A065B6500E0AC02DB8 /* CYPrompt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYPrompt.h; path = CYPlayer/CYPrompt/CYPrompt.h; sourceTree = "<group>"; };
+		D82A5EF0E85A3EACA7021C47005767A7 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = CYFFmpeg.framework/Headers/tree.h; sourceTree = "<group>"; };
+		D9534795E2CC8855071033678C348F3A /* CYCTFrameParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYCTFrameParser.m; path = CYPlayer/CYAttributesFactory/CYCTFrameParser.m; sourceTree = "<group>"; };
+		DA6D688F77A880D71C4770CF98406931 /* CYPlayerGestureControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYPlayerGestureControl.m; path = CYPlayer/CYVideoPlayer/GestureControl/CYPlayerGestureControl.m; sourceTree = "<group>"; };
+		DB1A51B6E7EF26F2E9475BAB79934B9E /* CYVideoPlayerPresentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerPresentView.h; path = CYPlayer/CYVideoPlayer/Present/CYVideoPlayerPresentView.h; sourceTree = "<group>"; };
+		DB4F256F6649015CE0F5E9F0DB5A3673 /* lzo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lzo.h; path = CYFFmpeg.framework/Headers/lzo.h; sourceTree = "<group>"; };
+		DBAF9098DA10704B0F043672C8C21DF3 /* CYSonicManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYSonicManager.h; path = CYPlayer/CYVideoPlayer/Model/CYSonicManager.h; sourceTree = "<group>"; };
+		DBB3F8917E10596F5A9A25E6B33FF2B6 /* samplefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplefmt.h; path = CYFFmpeg.framework/Headers/samplefmt.h; sourceTree = "<group>"; };
+		DC0402635F483A0DFA768E7B87CD9D1B /* aes_ctr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ctr.h; path = CYFFmpeg.framework/Headers/aes_ctr.h; sourceTree = "<group>"; };
+		DC60EE44D33F9642A3AE54E1AD73445F /* file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file.h; path = CYFFmpeg.framework/Headers/file.h; sourceTree = "<group>"; };
+		DC9BCFE9F8C5ED54DA397C5421F9F7DD /* avdct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdct.h; path = CYFFmpeg.framework/Headers/avdct.h; sourceTree = "<group>"; };
+		DD136853EB06FC122A269C77491E2EE9 /* avformat_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avformat_version.h; path = CYFFmpeg.framework/Headers/avformat_version.h; sourceTree = "<group>"; };
+		DDFCF4EEEEB3728A6489B7D3832EDB3B /* CYPlayerGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYPlayerGLView.m; path = CYPlayer/CYVideoPlayer/Player/CYPlayerGLView.m; sourceTree = "<group>"; };
+		DE0E91EEAEC03755620501D722026635 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		DF8E501DF575D610C9E89ADB24612FDF /* CYTimerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYTimerControl.m; path = CYPlayer/CYVideoPlayer/TimerControl/CYTimerControl.m; sourceTree = "<group>"; };
+		E0D06C52996834ACB2A7D12DF9303E88 /* UIViewController+CYExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYExtension.h"; path = "CYPlayer/CYOrentationObserver/UseNativeOrentation/UIViewController+CYExtension.h"; sourceTree = "<group>"; };
+		E13E37FB5844737FDE8FE373BDD18C35 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E225418C2321D251C70D0AD36D43E88E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2433C621B7DF883481595FA7532FEC1 /* CYVideoPlayerControlMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerControlMaskView.m; path = CYPlayer/CYVideoPlayer/Other/CYVideoPlayerControlMaskView.m; sourceTree = "<group>"; };
+		E293C77DFCC4F5915AAF48A2688C7F3F /* audio_fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_fifo.h; path = CYFFmpeg.framework/Headers/audio_fifo.h; sourceTree = "<group>"; };
+		E3F48196634B67E672B20393C81A9D90 /* CYVideoPlayerTopControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerTopControlView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerTopControlView.h; sourceTree = "<group>"; };
+		E4AF12957DF57C73C3FB68F8D767D6F0 /* pixdesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixdesc.h; path = CYFFmpeg.framework/Headers/pixdesc.h; sourceTree = "<group>"; };
+		E55F0510DDC14B4189F7976F1A2C7185 /* UINavigationController+CYVideoPlayerAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+CYVideoPlayerAdd.h"; path = "CYPlayer/CYVideoPlayerBackGR/UINavigationController+CYVideoPlayerAdd.h"; sourceTree = "<group>"; };
+		E68327CA06679814807BB539A6F860E0 /* CYVideoPlayerControlMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerControlMaskView.h; path = CYPlayer/CYVideoPlayer/Other/CYVideoPlayerControlMaskView.h; sourceTree = "<group>"; };
+		E6D5A597797E384FFC39F18D8EC79E07 /* avdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdevice.h; path = CYFFmpeg.framework/Headers/avdevice.h; sourceTree = "<group>"; };
+		E6EB5D0665008201C05FB7A888CBFDDA /* imgutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgutils.h; path = CYFFmpeg.framework/Headers/imgutils.h; sourceTree = "<group>"; };
+		E77EEE059520C4D2ABAEEF64484FF395 /* CYVideoPlayerCenterControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYVideoPlayerCenterControlView.h; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerCenterControlView.h; sourceTree = "<group>"; };
+		E7A1B1DC04FBF94A46A7B8DD814D5A81 /* avfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfilter.h; path = CYFFmpeg.framework/Headers/avfilter.h; sourceTree = "<group>"; };
+		E7F5395543EC6F8931C1015D5C2445DB /* fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = CYFFmpeg.framework/Headers/fifo.h; sourceTree = "<group>"; };
+		E85438D740DEA1FC34D1CDE80B6D5EE6 /* avutil_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avutil_version.h; path = CYFFmpeg.framework/Headers/avutil_version.h; sourceTree = "<group>"; };
+		E9D4476F99F186ABA10C8D37F8210E93 /* CYCTImageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYCTImageData.h; path = CYPlayer/CYAttributesFactory/CYCTImageData.h; sourceTree = "<group>"; };
+		EA41980D56F694F31C841B435EEEAAA5 /* CYPlayerDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYPlayerDecoder.m; path = CYPlayer/CYVideoPlayer/Model/CYPlayerDecoder.m; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB6B6095D810433CA9D34251225F088A /* url.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = url.h; path = CYFFmpeg.framework/Headers/url.h; sourceTree = "<group>"; };
+		EBF254B39C50BF0CC76A0992E700E8DD /* Pods-TestCYPlayerSwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCYPlayerSwiftUI-Info.plist"; sourceTree = "<group>"; };
+		EC4DC323FAE55C004893359A59D241A2 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = CYFFmpeg.framework/Headers/dict.h; sourceTree = "<group>"; };
+		EDF585AB6E283AE7A9B87626728F80D4 /* intfloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfloat.h; path = CYFFmpeg.framework/Headers/intfloat.h; sourceTree = "<group>"; };
+		EE2B409E88A2720D5445B29B021D96E5 /* avformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avformat.h; path = CYFFmpeg.framework/Headers/avformat.h; sourceTree = "<group>"; };
+		EEE89AE5EB2C159CF70784ACC7C0C0EC /* avconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avconfig.h; path = CYFFmpeg.framework/Headers/avconfig.h; sourceTree = "<group>"; };
+		EF0B8429FB33AFB4BF8A501F815C9E56 /* UIViewController+CYExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYExtension.m"; path = "CYPlayer/CYOrentationObserver/UseNativeOrentation/UIViewController+CYExtension.m"; sourceTree = "<group>"; };
+		EF75720BACB36684B0ABCDC6611FBDE7 /* bprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bprint.h; path = CYFFmpeg.framework/Headers/bprint.h; sourceTree = "<group>"; };
+		EFCFF2E9E6DF0F56E742ACBDB4FBECC6 /* CYVideoPlayerTopControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerTopControlView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerTopControlView.m; sourceTree = "<group>"; };
+		F08BA04A33DDA1FF2F556CAE337544C0 /* Pods-TestCYPlayerSwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCYPlayerSwiftUI-umbrella.h"; sourceTree = "<group>"; };
+		F0D9B352C8D7D0F471936C1B4738EF4E /* pixelutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixelutils.h; path = CYFFmpeg.framework/Headers/pixelutils.h; sourceTree = "<group>"; };
+		F0DEF3BF063459E7107F07BE14E42755 /* vorbis_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vorbis_parser.h; path = CYFFmpeg.framework/Headers/vorbis_parser.h; sourceTree = "<group>"; };
+		F16F89AF535039A0281611C9AA0423F8 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		F4C8A3B4BEF3D0FCFD44E93CD34CACA2 /* lfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfg.h; path = CYFFmpeg.framework/Headers/lfg.h; sourceTree = "<group>"; };
+		F5C36784D768B98C90CB885C9B9501DD /* hwcontext_drm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_drm.h; path = CYFFmpeg.framework/Headers/hwcontext_drm.h; sourceTree = "<group>"; };
+		F5E209C88D5A26A40FCD41CBA5C440F3 /* videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videotoolbox.h; path = CYFFmpeg.framework/Headers/videotoolbox.h; sourceTree = "<group>"; };
+		F7649E2A30B6418B7BD3808C23AF600F /* CYPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYPlayer-Info.plist"; sourceTree = "<group>"; };
+		F7C91C2C7ABC1FBD8A51EBDADC3BD9CA /* CYVideoPlayerMoreSettingSecondaryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerMoreSettingSecondaryView.m; path = CYPlayer/CYVideoPlayer/MoreSetting/Secondary/CYVideoPlayerMoreSettingSecondaryView.m; sourceTree = "<group>"; };
+		F8081870C636CB1FA243773479311C89 /* CYPrompt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYPrompt.m; path = CYPlayer/CYPrompt/CYPrompt.m; sourceTree = "<group>"; };
+		F818C101A7721C7973A88F9D379FBD2F /* CYPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYPlayer-prefix.pch"; sourceTree = "<group>"; };
+		F8813D311C285AC1D27041C1DA676C59 /* hwcontext_qsv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_qsv.h; path = CYFFmpeg.framework/Headers/hwcontext_qsv.h; sourceTree = "<group>"; };
+		F8A6C468F15E50780EDFD4DA4F86AB18 /* timestamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timestamp.h; path = CYFFmpeg.framework/Headers/timestamp.h; sourceTree = "<group>"; };
+		F8D1243389A08FB921CBA46500CC3D52 /* libsmbclient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libsmbclient.h; path = CYFFmpeg.framework/Headers/libsmbclient.h; sourceTree = "<group>"; };
+		FB35A6BC4C71B96B0F294E62D35339C8 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FBAAAD45EFFC55B10CD24DEB24375515 /* Pods-TestCYPlayerSwiftUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestCYPlayerSwiftUI"; path = Pods_TestCYPlayerSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC6A219946AE2D4BCAD51ECD4389739 /* CYVideoPlayerControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYVideoPlayerControlView.m; path = CYPlayer/CYVideoPlayer/Control/CYVideoPlayerControlView.m; sourceTree = "<group>"; };
+		FDE746CB1DA693D8B991FD92D665A9E6 /* hwcontext_videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_videotoolbox.h; path = CYFFmpeg.framework/Headers/hwcontext_videotoolbox.h; sourceTree = "<group>"; };
+		FF7A2ABAD9BF15128BB05FB118393761 /* sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha512.h; path = CYFFmpeg.framework/Headers/sha512.h; sourceTree = "<group>"; };
+		FFAA29D8D9B7FEC3205C21BC9C23A5E1 /* CYButtonSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYButtonSlider.h; path = CYPlayer/CYSlider/CYButtonSlider.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630C9C3472F4F926DC429621774C7A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1546A545FBB0670C258A32BE32CE2C2 /* Foundation.framework in Frameworks */,
+				D630280592A537B3E5652FD78ABD7951 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FBA85D872AD0DCEE9B24CE300037A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B791F3E03970F44A9FF426DF61B4B9DA /* Foundation.framework in Frameworks */,
+				C2E0F0D4488ACB0BBB959592471DCFF2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB47E868503EE032B0B800597CC40F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376D07C4B1013B2BE43995345C481353 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E70768D8421B15795BD6F7DA9AFD481 /* CYUIFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4AD68A060DB1F3CB3E3BAEF5383711D5 /* CYUIFactory.h */,
+				8632F6C158D1EAFCF3E5BEC14F000515 /* CYUIFactory.m */,
+				2CD73986FD36C0D339500DEF04D25320 /* CYUIFactoryHeader.h */,
+				AD069ACBEB0583B16A9C8C5342FCEE76 /* Category */,
+			);
+			name = CYUIFactory;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		189D8FA258B4E97E5E6DD8754CAE0AB9 /* UseNativeOrentation */ = {
+			isa = PBXGroup;
+			children = (
+				C5BBD77CBDFED1BDFD8FB7AA70F3E6B8 /* UIResponder+CYExtension.h */,
+				4597C980AD8465A215A25EA4DF13ACBF /* UIResponder+CYExtension.m */,
+				E0D06C52996834ACB2A7D12DF9303E88 /* UIViewController+CYExtension.h */,
+				EF0B8429FB33AFB4BF8A501F815C9E56 /* UIViewController+CYExtension.m */,
+			);
+			name = UseNativeOrentation;
+			sourceTree = "<group>";
+		};
+		1B6D5D704197798E6086D2BCC755A460 /* CYFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A97C47EA3B166AF2B3259A8EEBC04 /* aacdecoder_lib.h */,
+				217CB588E607E1561C65E74B5E3DF33F /* aacenc_lib.h */,
+				35E1E699F6A58976F62260814415DDF6 /* adler32.h */,
+				83CF2F2DC24FA606642483928CF2FCD5 /* aes.h */,
+				DC0402635F483A0DFA768E7B87CD9D1B /* aes_ctr.h */,
+				3038C17F50BF6CD7FAAE3BF9B5DBF0F8 /* attributes.h */,
+				E293C77DFCC4F5915AAF48A2688C7F3F /* audio_fifo.h */,
+				3DCF162EEBAC5E4D361EEBC7D216B7FD /* avassert.h */,
+				A1D495FDEB531D5E16EDD2462538ADC2 /* avcodec.h */,
+				57AC5166B39F0DFC8BB2622E47581E91 /* avcodec_version.h */,
+				EEE89AE5EB2C159CF70784ACC7C0C0EC /* avconfig.h */,
+				DC9BCFE9F8C5ED54DA397C5421F9F7DD /* avdct.h */,
+				E6D5A597797E384FFC39F18D8EC79E07 /* avdevice.h */,
+				773397A9154520E53F17B130B8E5EB8F /* avdevice_version.h */,
+				364E100B445705B578EBBF757F87A165 /* avfft.h */,
+				E7A1B1DC04FBF94A46A7B8DD814D5A81 /* avfilter.h */,
+				36C628DC1F1B04614BC75C2C5D7D0F50 /* avfilter_version.h */,
+				552474BA385E288B92AAAAA63103CE29 /* avfiltergraph.h */,
+				EE2B409E88A2720D5445B29B021D96E5 /* avformat.h */,
+				DD136853EB06FC122A269C77491E2EE9 /* avformat_version.h */,
+				B9A35001547958C7DA810A970AAE0EFB /* avio.h */,
+				6DA52087768BAB03AAA5B917001F3DF6 /* avstring.h */,
+				3E84BDD9343C782DB520CC693B7FBBCB /* avutil.h */,
+				E85438D740DEA1FC34D1CDE80B6D5EE6 /* avutil_version.h */,
+				B3293D77A2699D5928A0D379923BB096 /* base64.h */,
+				A164D119D8B748FE016EF88C8A30837B /* blowfish.h */,
+				EF75720BACB36684B0ABCDC6611FBDE7 /* bprint.h */,
+				3D136464FF44B9546189599571BAD6EF /* bswap.h */,
+				4A6DB89928FDC6E6A94F355942A0EA03 /* buffer.h */,
+				B856C5FBB7F5C8DBA154AA3F4134C282 /* buffersink.h */,
+				5D6E75EE531993CC52AFF8A7EF9BDDBA /* buffersrc.h */,
+				921979F77503D6B6553234E0A1FAE0EB /* camellia.h */,
+				6E857E0509B538074A5759C6839F720D /* cast5.h */,
+				2CC8EACF6C1AFDFAB9C22B284D17EC23 /* channel_layout.h */,
+				76C022D10C1D304FF33F0BB4F045828B /* cmdutils.h */,
+				67EADB8E98092E75A267A985B935EB94 /* common.h */,
+				2D33AF24B20724D93C536978B0372197 /* config.h */,
+				B7794C3191953DBCEAD4782195E7EF9D /* cpu.h */,
+				8A28AF2515899F8E70EF46B9EFE168E5 /* crc.h */,
+				75481660332472F1707DF86A223FD866 /* CYFFmpeg.h */,
+				569E7158310D89DB22C02CDFEBF90D37 /* d3d11va.h */,
+				048F2D826A888741BD8FB25969C65259 /* des.h */,
+				EC4DC323FAE55C004893359A59D241A2 /* dict.h */,
+				A620C2BA1F30A5EBAC5BADDAE0D06C93 /* dirac.h */,
+				34C5E2F2E2DF5C9CFBA488BD358C5D9D /* display.h */,
+				B2DE91D43EDE8802616BB8B1EC396448 /* downmix_info.h */,
+				6C01E535B1DA4AF634A03A0F461E8DF2 /* dv_profile.h */,
+				38F725DCE15711E66A1F15E079F34925 /* dxva2.h */,
+				1E9267F2665D7493E081D1B69A28263D /* error.h */,
+				1A4875702B6C2FF6757C1B56FF59B486 /* eval.h */,
+				8F80F65678D519E14BB50ACB9E2D30E3 /* FDK_audio.h */,
+				87E883C54F5BD376711F6626076A388D /* ffmpeg.h */,
+				77B942D414F9FDE4CD8D230428355FB4 /* ffversion.h */,
+				E7F5395543EC6F8931C1015D5C2445DB /* fifo.h */,
+				DC60EE44D33F9642A3AE54E1AD73445F /* file.h */,
+				1A41B3A508CE28440BAC80F1846F4326 /* frame.h */,
+				D5D94CC3AE502CC6DAE82C79181A19B6 /* genericStds.h */,
+				7F59ADD858273BA6203BB35CD30E4846 /* hash.h */,
+				CCA7FE0156B15012BA2ED32298B4DBC8 /* hmac.h */,
+				1FAB617ADEEB4DC819691FC962CEB757 /* hwcontext.h */,
+				A15AFEBD2AEE396524AD1CDA60571E3A /* hwcontext_cuda.h */,
+				1E23E54FC10F900773F0D2BA2CCF2F6F /* hwcontext_d3d11va.h */,
+				F5C36784D768B98C90CB885C9B9501DD /* hwcontext_drm.h */,
+				ACD644C4F1582B477C627D975654BD36 /* hwcontext_dxva2.h */,
+				F8813D311C285AC1D27041C1DA676C59 /* hwcontext_qsv.h */,
+				A3E1FA1EB5B586257FB0B3C220905536 /* hwcontext_vaapi.h */,
+				C9D4B5942BDF05FA5562307A533BA433 /* hwcontext_vdpau.h */,
+				FDE746CB1DA693D8B991FD92D665A9E6 /* hwcontext_videotoolbox.h */,
+				E6EB5D0665008201C05FB7A888CBFDDA /* imgutils.h */,
+				EDF585AB6E283AE7A9B87626728F80D4 /* intfloat.h */,
+				1B6E7562784CB02B9676FEC528218C17 /* intreadwrite.h */,
+				4140D01B0DD259205AF0C0615341630D /* jni.h */,
+				F4C8A3B4BEF3D0FCFD44E93CD34CACA2 /* lfg.h */,
+				F8D1243389A08FB921CBA46500CC3D52 /* libsmbclient.h */,
+				0331E70A2AB18C92E9F52C2B081DD665 /* log.h */,
+				DB4F256F6649015CE0F5E9F0DB5A3673 /* lzo.h */,
+				0BC182FCA196233A9CDD7EEA112CA10C /* machine_type.h */,
+				62F327D5CE952B8B594BD95FE9728348 /* macros.h */,
+				6D8D5C38918966CCE083A7EE7C486966 /* mastering_display_metadata.h */,
+				3BCDAEC148CD30570AEECE6F8690030C /* mathematics.h */,
+				B8BC03FC829BE58A98BE1194EE65385A /* md5.h */,
+				79B0A182984E071B4AAB7DDBE3A1615A /* mediacodec.h */,
+				25A035D3C2292241CA33827601CBBDBF /* mem.h */,
+				C4E7FFF92B11F079FBDFE7C51B3270CB /* motion_vector.h */,
+				668C2F7AE580E39644110FA39B4EB558 /* murmur3.h */,
+				A68F5BB2EB6D506ECF6B9ACE44CB6370 /* opt.h */,
+				54875C7CD32B98C374B428EB1D0DBA8B /* parseutils.h */,
+				E4AF12957DF57C73C3FB68F8D767D6F0 /* pixdesc.h */,
+				F0D9B352C8D7D0F471936C1B4738EF4E /* pixelutils.h */,
+				6442B8F082904CF379BAD2E1B270B752 /* pixfmt.h */,
+				8409471EE1AE66AFE41C6B84D1207B8D /* postprocess.h */,
+				8A3184722A928EFD9567F6A8E27826B7 /* postprocess_version.h */,
+				B30C0050FBFCCC15C6382B21E8474A9A /* qsv.h */,
+				BE55C705453BD39593AEB2011C2EF501 /* random_seed.h */,
+				5B7EB8375379C82C3E7C1CD049DB317D /* rational.h */,
+				688913C254E6294DE9833A9FF02E07AC /* rc4.h */,
+				BB758940407CBB6589E748631034B972 /* replaygain.h */,
+				BD89ABFBF02A8AE57FD53DE883A46AFE /* ripemd.h */,
+				DBB3F8917E10596F5A9A25E6B33FF2B6 /* samplefmt.h */,
+				8A12720E35041E0C1DAB849F7993A2E2 /* sha.h */,
+				FF7A2ABAD9BF15128BB05FB118393761 /* sha512.h */,
+				A8573B92C1034C3DA73A21E592B69689 /* spherical.h */,
+				32F3B43962E1FCB8C5DDC401925FDF7A /* stereo3d.h */,
+				BF3FC1909B2FFEBAE7D337C0C304AF27 /* swresample.h */,
+				6FD957BCC52AC884349DA63268F91770 /* swresample_version.h */,
+				480BAD116D592EE3F50970676E4429B9 /* swscale.h */,
+				40675AA39318DEFC96EB92D7B856A29D /* swscale_version.h */,
+				41BE64859FCA17E376F9CCBC84B14725 /* talloc.h */,
+				01211FC9DCBBE04AD24B73F667F3C29F /* talloc_stack.h */,
+				55AF4C10A7DBF9ED4D3198DBE19A1AB9 /* tea.h */,
+				B5F05F59CD0E7411F6D66E7E8EE611B3 /* threadmessage.h */,
+				590BAED0C40801DAAEB6EFD9D258DB1B /* time.h */,
+				435F669AC2D1C3D2074DC993D14BB6FA /* timecode.h */,
+				F8A6C468F15E50780EDFD4DA4F86AB18 /* timestamp.h */,
+				D82A5EF0E85A3EACA7021C47005767A7 /* tree.h */,
+				2BD9113A351A736C9F01D5A78B1961DF /* twofish.h */,
+				EB6B6095D810433CA9D34251225F088A /* url.h */,
+				9C9BF783DDEF008D1E8AAB410AD14639 /* vaapi.h */,
+				839AFCAC21F382F6FBCAA5523F116466 /* vda.h */,
+				201F2D039C50AA1E5498BA1A3BC467E6 /* vdpau.h */,
+				F5E209C88D5A26A40FCD41CBA5C440F3 /* videotoolbox.h */,
+				F0DEF3BF063459E7107F07BE14E42755 /* vorbis_parser.h */,
+				CACC8645443D4E15F7003C7386D0C7F1 /* x264.h */,
+				74719EA12AF79F133A4FA5199F3B239F /* x264_config.h */,
+				4AA42B19B451003A13A03D02C90C3872 /* xtea.h */,
+				272C0112F18CF1A6C94167D1C1F71D7F /* xvmc.h */,
+				E42DF47009B298E5FC82843C379D4411 /* Frameworks */,
+				B5144D342BBDA087F9372ACC2BC8745D /* Support Files */,
+			);
+			name = CYFFmpeg;
+			path = CYFFmpeg;
+			sourceTree = "<group>";
+		};
+		1D2BD455ED984BB7CCF22AB1FB2962F2 /* CYVideoPlayerBackGR */ = {
+			isa = PBXGroup;
+			children = (
+				2F92FD3FCB8BB7B5CC09F78B8E962017 /* CYScreenshotView.h */,
+				3082ED6110B785AFB82F80537E2B926A /* CYScreenshotView.m */,
+				E55F0510DDC14B4189F7976F1A2C7185 /* UINavigationController+CYVideoPlayerAdd.h */,
+				84AB2FC8A5D7729FFC80FE0DF85DDB86 /* UINavigationController+CYVideoPlayerAdd.m */,
+				0CC33274C233DB3D9706AFCD6C255E98 /* UIViewController+CYVideoPlayerAdd.h */,
+				075381586CF1D45FC33E6A5D7485E127 /* UIViewController+CYVideoPlayerAdd.m */,
+			);
+			name = CYVideoPlayerBackGR;
+			sourceTree = "<group>";
+		};
+		21C0DD8374B0B8A94E77D82B26E971D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E12D3D080E1A6C254EF081AAD3E5611 /* Masonry.modulemap */,
+				E13E37FB5844737FDE8FE373BDD18C35 /* Masonry-dummy.m */,
+				063D27D0FDE74A6BA971FE969EBD2F67 /* Masonry-Info.plist */,
+				73948D321297E6C3832E59ADE9736214 /* Masonry-prefix.pch */,
+				0E11C8D7162ACD883BD5D9AAE792142C /* Masonry-umbrella.h */,
+				1CE0FA7E4F949E8CB14FB532A541ADBA /* Masonry.debug.xcconfig */,
+				0652EE3A7F81279937214576FEB6FA10 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		22713AF0270D78E6AFBA5D33B59DFE52 /* GestureControl */ = {
+			isa = PBXGroup;
+			children = (
+				B600EDD56AE7DA0BD1450645FB46256F /* CYPlayerGestureControl.h */,
+				DA6D688F77A880D71C4770CF98406931 /* CYPlayerGestureControl.m */,
+			);
+			name = GestureControl;
+			sourceTree = "<group>";
+		};
+		28941C1F3599BE11B62F2326EA461A88 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4E717AA4410B64E44DB4DA726409BCFC /* CYVideoPlayerBaseView.h */,
+				B6E466ED1E7F27CD3FF3A6DE9F4964C1 /* CYVideoPlayerBaseView.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2B9471A12350D608BBF315FF6954781C /* Secondary */ = {
+			isa = PBXGroup;
+			children = (
+				793F20AAD31BF423C8D0A055E9A69669 /* CYVideoPlayerMoreSettingSecondaryColCell.h */,
+				B6369E4D7A8B9B08B9F44F0839B0E03E /* CYVideoPlayerMoreSettingSecondaryColCell.m */,
+				04EC0E56F94AE786123242EC92FB6C41 /* CYVideoPlayerMoreSettingSecondaryView.h */,
+				F7C91C2C7ABC1FBD8A51EBDADC3BD9CA /* CYVideoPlayerMoreSettingSecondaryView.m */,
+				5AE6202B71F767D448BF9A3C28F3C65D /* CYVideoPlayerMoreSettingsSecondaryHeaderView.h */,
+				76CD57043C4E68C9785D9473807D3F2B /* CYVideoPlayerMoreSettingsSecondaryHeaderView.m */,
+			);
+			name = Secondary;
+			sourceTree = "<group>";
+		};
+		3D64F30FFCBF3CE34EEF95CECA629BBC /* CYSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FFAA29D8D9B7FEC3205C21BC9C23A5E1 /* CYButtonSlider.h */,
+				9B1AE8B700DA6E1FE3CA04010E63BC6A /* CYButtonSlider.m */,
+				CF42D72EDB412836DCFF6D2260FB3B7C /* CYCommonSlider.h */,
+				3A5747633E67E9D4E69F337B05F665AB /* CYCommonSlider.m */,
+				BE5773A9EFE97EDDE7759F18843C3558 /* CYLabelSlider.h */,
+				B03F9E525FE0CE45787DA765C8A8B4E1 /* CYLabelSlider.m */,
+				005BB301C20E51F2CE233D7FD15EADE4 /* CYSlider.h */,
+				535D98A2A95C67210F492F01D1EACD84 /* CYSlider.m */,
+			);
+			name = CYSlider;
+			sourceTree = "<group>";
+		};
+		41DD84EB9B81133CDFDB33F7000340FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A1D2E2A8F22FF77CBB8EB67AC7E970 /* CYPlayer */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				FBAAAD45EFFC55B10CD24DEB24375515 /* Pods-TestCYPlayerSwiftUI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB1F9F041071C3AFC03A18D6C49D8DC /* Registrar */ = {
+			isa = PBXGroup;
+			children = (
+				B0DE2D674E88B884C36CD1B95CE2B9A0 /* CYVideoPlayerRegistrar.h */,
+				6E4D407585D8BE05DE883475F7AF72FA /* CYVideoPlayerRegistrar.m */,
+			);
+			name = Registrar;
+			sourceTree = "<group>";
+		};
+		51F3D2F537719266601954C4142811D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6D5D704197798E6086D2BCC755A460 /* CYFFmpeg */,
+				81EE2708A095095C198941B853BA699B /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5608609E6C75946194523633B827683B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				9615089BD5979F56D2C0391C683ADE5F /* CYLogger.h */,
+				72A20D10FD8FB455871E30AD3915FE65 /* CYVideoPlayerControlViewEnumHeader.h */,
+				69B44250527C340E7CA385742314FEFE /* CYVideoPlayerState.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F93B2E1B4D47FC61F52EA67F0DB2EF5 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C12BF5F4169BCDAC36FE6E835CA0E30A /* CYFFmpegMetalView.h */,
+				6DAB56314A5FF83A3477B8DC70EBC48E /* CYFFmpegMetalView.m */,
+				2984FC54D700F08C396EE59A289BD4C8 /* CYFFmpegPlayer.h */,
+				5E6EC74D7903DDC746322E8273259CA7 /* CYFFmpegPlayer.m */,
+				78C326C1B29B65941C1C179DA8C96ED9 /* CYPlayerGLView.h */,
+				DDFCF4EEEEB3728A6489B7D3832EDB3B /* CYPlayerGLView.m */,
+				940BAA8CDE703B5FED673A448C5C8444 /* CYPlayerMetalShaders.h */,
+				0014425D3BDBF594602A64198477CFF9 /* CYVideoPlayer.h */,
+				380C25EEFCB08B70C95B5796B7AA227D /* CYVideoPlayer.m */,
+				D6970836CA4A4043D52DFAA2482886CD /* CYVideoPlayerView.h */,
+				93694C73559F5777C7D4146E29275441 /* CYVideoPlayerView.m */,
+				CC8A3737BEE9D40CB1EE1780A7334869 /* PlayESView.h */,
+				3CE2201E1BBAF43064F99E875A66D93E /* PlayESView.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		672EBC47AF00A85FAB1959822CE30DA2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E68327CA06679814807BB539A6F860E0 /* CYVideoPlayerControlMaskView.h */,
+				E2433C621B7DF883481595FA7532FEC1 /* CYVideoPlayerControlMaskView.m */,
+				6E169252F89DCD541579E45D87F23A9B /* CYVideoPlayerDraggingProgressView.h */,
+				B09685333820646A77B477557E25BE28 /* CYVideoPlayerDraggingProgressView.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6ED41DBF08EDC6AF6CF6C4B9DF1DC6CA /* Pods-TestCYPlayerSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				7485474A6294BE17CDF32AD9B55FD6C6 /* Pods-TestCYPlayerSwiftUI.modulemap */,
+				0F9CAF62322B22C95E77AB99BA4C2BAA /* Pods-TestCYPlayerSwiftUI-acknowledgements.markdown */,
+				CFEF32405107FF0F6045DEC3D5B825D4 /* Pods-TestCYPlayerSwiftUI-acknowledgements.plist */,
+				79057C352CE8A1D4C2B8AF430C88A243 /* Pods-TestCYPlayerSwiftUI-dummy.m */,
+				4EC3C24DE2AE8D1944CB7D4C05648D8E /* Pods-TestCYPlayerSwiftUI-frameworks.sh */,
+				EBF254B39C50BF0CC76A0992E700E8DD /* Pods-TestCYPlayerSwiftUI-Info.plist */,
+				F08BA04A33DDA1FF2F556CAE337544C0 /* Pods-TestCYPlayerSwiftUI-umbrella.h */,
+				09004C2883CE8652BB47F2865B0FE46E /* Pods-TestCYPlayerSwiftUI.debug.xcconfig */,
+				7BEED41732E649F594A7DEB483954DC0 /* Pods-TestCYPlayerSwiftUI.release.xcconfig */,
+			);
+			name = "Pods-TestCYPlayerSwiftUI";
+			path = "Target Support Files/Pods-TestCYPlayerSwiftUI";
+			sourceTree = "<group>";
+		};
+		7E3F59A4539FBA575F98B3D68D4FCE23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ED41DBF08EDC6AF6CF6C4B9DF1DC6CA /* Pods-TestCYPlayerSwiftUI */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		80191A620DF0277C4C5E3A13D385835C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5143DC1B2C80AC03822C3A8DAEF0848D /* CYPlayer.modulemap */,
+				7B3091DFBB5B5703BCA4169B5F3BA075 /* CYPlayer-dummy.m */,
+				F7649E2A30B6418B7BD3808C23AF600F /* CYPlayer-Info.plist */,
+				F818C101A7721C7973A88F9D379FBD2F /* CYPlayer-prefix.pch */,
+				CE433108EC179A4ABD2E22AC1907157B /* CYPlayer-umbrella.h */,
+				D622DBF9AEDB5FD06EBCD1B98A4AF60E /* CYPlayer.debug.xcconfig */,
+				BB0F45364FC3236B176B2AF955A389BA /* CYPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../TestCYPlayerSwiftUI/Pods/Target Support Files/CYPlayer";
+			sourceTree = "<group>";
+		};
+		81A49E484D71F2CD4E09B704973ACFA1 /* MoreSetting */ = {
+			isa = PBXGroup;
+			children = (
+				144568252B09CF277F5D23FC55D397D0 /* CYVideoPlayerMoreSettingsColCell.h */,
+				5EBB3FE71D7AEEF6FC58C8D19A1DB7B3 /* CYVideoPlayerMoreSettingsColCell.m */,
+				89902EFDA68DB6C3E56F3CECB9254CEB /* CYVideoPlayerMoreSettingsFooterSlidersView.h */,
+				062345B3A9542ADCB615493D92EF3A83 /* CYVideoPlayerMoreSettingsFooterSlidersView.m */,
+				17E828DC98F48932CB8881892FC48DC7 /* CYVideoPlayerMoreSettingsView.h */,
+				A53961D25BB796D45985CAFD4A46BBE6 /* CYVideoPlayerMoreSettingsView.m */,
+			);
+			name = MoreSetting;
+			sourceTree = "<group>";
+		};
+		81EE2708A095095C198941B853BA699B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				10A7C8004C16BFD030D00CF10E8E19E1 /* MASCompositeConstraint.h */,
+				4E9288FF0320A389F9A4DD09F9CDF84F /* MASCompositeConstraint.m */,
+				78CB438B362157793AF06951757D73C5 /* MASConstraint.h */,
+				3DFE860E787F9D5B15E3B24A1FF93A15 /* MASConstraint.m */,
+				A2453BD515A29CE90F2CEC7A1C45FF91 /* MASConstraint+Private.h */,
+				6B012BD4B0F40DA740990F6B0D8FADF9 /* MASConstraintMaker.h */,
+				F16F89AF535039A0281611C9AA0423F8 /* MASConstraintMaker.m */,
+				99FEE9C93FF8D1E202ED902C5926C5D6 /* MASLayoutConstraint.h */,
+				3A52A1EA8A2269595CD23CDECE76845A /* MASLayoutConstraint.m */,
+				7B457B24DEF711C494D3913C7A66FEE9 /* Masonry.h */,
+				678074A168188D09A3BFDA751EA9FA4A /* MASUtilities.h */,
+				DE0E91EEAEC03755620501D722026635 /* MASViewAttribute.h */,
+				317469F1431B140D17C3944698330C03 /* MASViewAttribute.m */,
+				7283B837B936D4E1E4547D2E5FF13D3B /* MASViewConstraint.h */,
+				6B48FCCCE0CF709F026F9CEF05A25A13 /* MASViewConstraint.m */,
+				54127275C69CC079F0F884696307D5A6 /* NSArray+MASAdditions.h */,
+				018494C054BE0791E69481C17E770E11 /* NSArray+MASAdditions.m */,
+				354FD74A5DF10222EB27919D8DE11667 /* NSArray+MASShorthandAdditions.h */,
+				602B266209F9551066CF301F037852F2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				56B11A62CB48A76A6BDB2E2E281FCDEA /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FB35A6BC4C71B96B0F294E62D35339C8 /* View+MASAdditions.h */,
+				2C25E5FA75B0BD329C2BD7B10EECB628 /* View+MASAdditions.m */,
+				54AFFA8D150896C020F6E3166F968501 /* View+MASShorthandAdditions.h */,
+				7770A76FDD5C59812A55C6B96FFE4D95 /* ViewController+MASAdditions.h */,
+				616FC085AD126B0F400CE634C252A4A2 /* ViewController+MASAdditions.m */,
+				21C0DD8374B0B8A94E77D82B26E971D4 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8367CC94997B799CE743DA50271C3A7A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE3A6E263F2E3B2903BA38B3EDC16 /* CYVideoPlayerResources.h */,
+				390558090069BC9EF48F3A60D929947A /* CYVideoPlayerResources.m */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		93D6219AA2C5BA816CA979CE8945AF49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				128FB8E8E5543CCCA38660BC3AEAC9E8 /* CYAudioManager.h */,
+				5F177E17D41854BC320BD174218A11F6 /* CYAudioManager.m */,
+				894E32CDC5C6948F4F31AA6A42A53C7B /* CYGCDManager.h */,
+				09112E68C459E4C2BE2E3748E279CF44 /* CYGCDManager.m */,
+				286B844D6CB6FCE1CB7B1CA338DBE5AC /* CYHardwareDecompressVideo.h */,
+				78D9DB22DDD94908ED0E7AC0660BAD8D /* CYHardwareDecompressVideo.m */,
+				07116CCEDD7E97486BFCC22CB4E2DFE5 /* CYMoreSettingsFooterViewModel.h */,
+				55E70975C8E05F0A66AA371DE0531FB8 /* CYMoreSettingsFooterViewModel.m */,
+				1B97592F856E0133237FBB2A3A018B66 /* CYOpenALPlayer.h */,
+				3909414FF2E7B92EB8297DDC26E25050 /* CYOpenALPlayer.m */,
+				73782C9F14E70C31F9EE661DE24846F1 /* CYPCMAudioManager.h */,
+				27951EDDA84A3638AF7EE4B4641AB6FB /* CYPCMAudioManager.m */,
+				BABBF9379D0C545505A0A98AAF40AACD /* CYPlayerDecoder.h */,
+				EA41980D56F694F31C841B435EEEAAA5 /* CYPlayerDecoder.m */,
+				DBAF9098DA10704B0F043672C8C21DF3 /* CYSonicManager.h */,
+				69FB31D9858C988330BB7F6E8D409593 /* CYSonicManager.mm */,
+				338D02F01F36DD2EF1B8D2FB61D1700A /* CYVideoPlayerAssetCarrier.h */,
+				3E67714C20CEBAE417EA9FE5C8DEA745 /* CYVideoPlayerAssetCarrier.m */,
+				067D41B203EEBDB38398828064B5908D /* CYVideoPlayerMoreSetting.h */,
+				B7DFBCBB54646C08B9AA783096D57456 /* CYVideoPlayerMoreSetting.m */,
+				C2FF88CB71B8D8CE4A248EE3206B51F7 /* CYVideoPlayerMoreSettingSecondary.h */,
+				A5CAF5F4669A5DA0A2BA9B5F8746F44A /* CYVideoPlayerMoreSettingSecondary.m */,
+				98D899BB4CAA0140DB63456E264D56B6 /* CYVideoPlayerSettings.h */,
+				19E7D22FC97B0EFEC2DB067B6EB7CA78 /* CYVideoPlayerSettings.m */,
+				895BB364876427AC522493C482EC1CF6 /* sonic.cpp */,
+				457DF4CC2E9E056B67D07C02E6005B1B /* sonic.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		981C1D6051039522AA86D152C861E66F /* VolBrigControl */ = {
+			isa = PBXGroup;
+			children = (
+				ADD63A47A3F139A70A57FA61FA748C93 /* CYVideoPlayerTipsView.h */,
+				19A8010127623E78AA42A1524618D757 /* CYVideoPlayerTipsView.m */,
+				3EBC82E39518BE358E6B334762A5069D /* CYVolBrigControl.h */,
+				81335903F2B03D0B94591CB2C0E2EAA8 /* CYVolBrigControl.m */,
+			);
+			name = VolBrigControl;
+			sourceTree = "<group>";
+		};
+		9D2D9903FE5C8B49AD70FC52BBE1183C /* MoreSetting */ = {
+			isa = PBXGroup;
+			children = (
+				81A49E484D71F2CD4E09B704973ACFA1 /* MoreSetting */,
+				2B9471A12350D608BBF315FF6954781C /* Secondary */,
+			);
+			name = MoreSetting;
+			sourceTree = "<group>";
+		};
+		A0A27491780D5557CBDB5D39001705F6 /* CYPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				D78219F22EB238A065B6500E0AC02DB8 /* CYPrompt.h */,
+				F8081870C636CB1FA243773479311C89 /* CYPrompt.m */,
+				6EF49328BA4636980A4B52A0396F3D13 /* CYPromptConfig.h */,
+				8DDD65CC179EA7869B0C4D8AB6738DCF /* CYPromptConfig.m */,
+			);
+			name = CYPrompt;
+			sourceTree = "<group>";
+		};
+		A6C00BF020BBAB62325CD641864620A9 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				0A43A3718A2DBF8FF9F7F9CB5939109A /* CYVideoPlayerBottomControlView.h */,
+				21049EA08EB175141CDF95E691C91084 /* CYVideoPlayerBottomControlView.m */,
+				E77EEE059520C4D2ABAEEF64484FF395 /* CYVideoPlayerCenterControlView.h */,
+				31DF188698F2053E0DC1AC388C71B90E /* CYVideoPlayerCenterControlView.m */,
+				7E8E51D23CE03F775817E719763D5595 /* CYVideoPlayerControlView.h */,
+				FDC6A219946AE2D4BCAD51ECD4389739 /* CYVideoPlayerControlView.m */,
+				72AE8AEF860A5BFDDD017906A18178F0 /* CYVideoPlayerLeftControlView.h */,
+				53AFE8E69914BD1F78A5E111F7D58099 /* CYVideoPlayerLeftControlView.m */,
+				53AE0E0A5F3941AB45715FE190C2E51E /* CYVideoPlayerPreviewCollectionViewCell.h */,
+				42B63BD508705EFE9A1FDAE18E972C31 /* CYVideoPlayerPreviewCollectionViewCell.m */,
+				4AFC03F1792BC6E65BA805AADCAE26C3 /* CYVideoPlayerPreviewView.h */,
+				1A037718660D6D5900D3503562765076 /* CYVideoPlayerPreviewView.m */,
+				6850984D712D45EAE5A0556D7A00D253 /* CYVideoPlayerSelectTableView.h */,
+				AF2C5972D05658F9C00661F1D76C7F5D /* CYVideoPlayerSelectTableView.m */,
+				E3F48196634B67E672B20393C81A9D90 /* CYVideoPlayerTopControlView.h */,
+				EFCFF2E9E6DF0F56E742ACBDB4FBECC6 /* CYVideoPlayerTopControlView.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		AD069ACBEB0583B16A9C8C5342FCEE76 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6EF10C5C3AEE3B4A373A874F3B60B43E /* UIImagePickerController+Extension.h */,
+				A97D986CFCECE012730AF27AF6AE4C50 /* UIImagePickerController+Extension.m */,
+				8FB72FE53D23A1D34EFC7819C8A97C54 /* UIView+CYUIFactory.h */,
+				107F45E9A04E6C8AF78B72499F0696A7 /* UIView+CYUIFactory.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		B5144D342BBDA087F9372ACC2BC8745D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				910DA82BE4D0ABD3D98885999FE7D416 /* CYFFmpeg.debug.xcconfig */,
+				C678F428904CB2904F6FA85AEC505C82 /* CYFFmpeg.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYFFmpeg";
+			sourceTree = "<group>";
+		};
+		BA07D888095C1F7218C1D0B4C5731398 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A51B6E7EF26F2E9475BAB79934B9E /* CYVideoPlayerPresentView.h */,
+				251D96158E529C99A3CBC8A54ACA278A /* CYVideoPlayerPresentView.m */,
+			);
+			name = Present;
+			sourceTree = "<group>";
+		};
+		BB682E0557C16A68243F4835D6121D87 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2155797EDB7E7C25941779CECAAA1FE /* CYPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BDCA5DFF19C42C67E64610C3D3609361 /* CYLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				0827CD9E19A14C0720F51E37F14633E4 /* CYLoadingView.h */,
+				A73A25A7B276C0922656644776608E4A /* CYLoadingView.m */,
+			);
+			name = CYLoadingView;
+			sourceTree = "<group>";
+		};
+		C9204386A64085E4CBFE43FB537136EB /* CYVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				868FEB9524DCC2854291C0D1B5A85DFC /* CYPlayer.h */,
+				28941C1F3599BE11B62F2326EA461A88 /* Base */,
+				A6C00BF020BBAB62325CD641864620A9 /* Control */,
+				22713AF0270D78E6AFBA5D33B59DFE52 /* GestureControl */,
+				5608609E6C75946194523633B827683B /* Header */,
+				93D6219AA2C5BA816CA979CE8945AF49 /* Model */,
+				9D2D9903FE5C8B49AD70FC52BBE1183C /* MoreSetting */,
+				672EBC47AF00A85FAB1959822CE30DA2 /* Other */,
+				5F93B2E1B4D47FC61F52EA67F0DB2EF5 /* Player */,
+				BA07D888095C1F7218C1D0B4C5731398 /* Present */,
+				4BB1F9F041071C3AFC03A18D6C49D8DC /* Registrar */,
+				8367CC94997B799CE743DA50271C3A7A /* Resource */,
+				F4550A1884554BD8B83C709016DA3A03 /* TimerControl */,
+				981C1D6051039522AA86D152C861E66F /* VolBrigControl */,
+			);
+			name = CYVideoPlayer;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BB682E0557C16A68243F4835D6121D87 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				51F3D2F537719266601954C4142811D1 /* Pods */,
+				41DD84EB9B81133CDFDB33F7000340FC /* Products */,
+				7E3F59A4539FBA575F98B3D68D4FCE23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D01F869C043CB7B7E8E0FFFB4713B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1BEA69DD050A04C4D3CABF642BF6F089 /* CYPlayer.podspec */,
+				627E8AA3144FF83A20A19A4279C42B68 /* LICENSE */,
+				E225418C2321D251C70D0AD36D43E88E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D9ACA0213C2B5712AECCA04D7113D1EE /* CYObserverHelper */ = {
+			isa = PBXGroup;
+			children = (
+				90C79B89B36DBD562658BC49F9F33EE5 /* NSObject+CYObserverHelper.h */,
+				4B485B1A05B57AB59C1B3F090FDB74A5 /* NSObject+CYObserverHelper.m */,
+			);
+			name = CYObserverHelper;
+			sourceTree = "<group>";
+		};
+		E2155797EDB7E7C25941779CECAAA1FE /* CYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				42732FE4DB0580E9B9EC025E924966B5 /* CYVideoPlayer.bundle */,
+				F4F029489BDF0472A69F2CCAA2E1B6A6 /* CYAttributesFactory */,
+				E87C9C4E6AFD00A9191C643D1F6A8448 /* CYBorderLineView */,
+				BDCA5DFF19C42C67E64610C3D3609361 /* CYLoadingView */,
+				D9ACA0213C2B5712AECCA04D7113D1EE /* CYObserverHelper */,
+				E99E71E867AC55562960165749CD7E0C /* CYOrentationObserver */,
+				A0A27491780D5557CBDB5D39001705F6 /* CYPrompt */,
+				3D64F30FFCBF3CE34EEF95CECA629BBC /* CYSlider */,
+				0E70768D8421B15795BD6F7DA9AFD481 /* CYUIFactory */,
+				C9204386A64085E4CBFE43FB537136EB /* CYVideoPlayer */,
+				1D2BD455ED984BB7CCF22AB1FB2962F2 /* CYVideoPlayerBackGR */,
+				D4D01F869C043CB7B7E8E0FFFB4713B1 /* Pod */,
+				80191A620DF0277C4C5E3A13D385835C /* Support Files */,
+			);
+			name = CYPlayer;
+			path = ../../CYPlayer;
+			sourceTree = "<group>";
+		};
+		E42DF47009B298E5FC82843C379D4411 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6852B4E586755131DAE1CDE2507FC8BD /* CYFFmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87C9C4E6AFD00A9191C643D1F6A8448 /* CYBorderLineView */ = {
+			isa = PBXGroup;
+			children = (
+				479B93229B6B3C37A39AA5D4064AAAC6 /* CYBorderlineView.h */,
+				49717898F30B9C840E91748E6091696F /* CYBorderlineView.m */,
+			);
+			name = CYBorderLineView;
+			sourceTree = "<group>";
+		};
+		E99E71E867AC55562960165749CD7E0C /* CYOrentationObserver */ = {
+			isa = PBXGroup;
+			children = (
+				58848E6C821E3993C90B76AF713F4EEB /* CYOrentationObserver.h */,
+				47C7EB93CCECFDD4D67ABF43926ADAB1 /* CYOrentationObserver.m */,
+				189D8FA258B4E97E5E6DD8754CAE0AB9 /* UseNativeOrentation */,
+			);
+			name = CYOrentationObserver;
+			sourceTree = "<group>";
+		};
+		F4550A1884554BD8B83C709016DA3A03 /* TimerControl */ = {
+			isa = PBXGroup;
+			children = (
+				4F6B090A5EB996051F5236AFA437CC24 /* CYTimerControl.h */,
+				DF8E501DF575D610C9E89ADB24612FDF /* CYTimerControl.m */,
+			);
+			name = TimerControl;
+			sourceTree = "<group>";
+		};
+		F4F029489BDF0472A69F2CCAA2E1B6A6 /* CYAttributesFactory */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE7BC94D0C0E5B356D8E3137B599CC /* CYAttributedStringKeys.h */,
+				4B7C083DAFA10EF39D22B7D4C233B23C /* CYAttributedStringKeys.m */,
+				4D6913A56228FBB5297EA5C51FF1936E /* CYAttributesFactory.h */,
+				06AAA7FA7FF978108123CA02971AE070 /* CYAttributesFactory.m */,
+				825495AB76C383E63DB0F25232EF4237 /* CYAttributesFactoryHeader.h */,
+				3E425E24BA1DC7A992E5E7822FD7FEB8 /* CYAttributeWorker.h */,
+				38ABD4BE6D18F3F17EDF912F4B3F3DE1 /* CYAttributeWorker.m */,
+				440DE5DA68C670FD26B0D06F266A0B37 /* CYCTData.h */,
+				230195FE5128C33E26BBE41FB64C70F7 /* CYCTData.m */,
+				4A223775D543B9F79D35A17919FF0828 /* CYCTFrameParser.h */,
+				D9534795E2CC8855071033678C348F3A /* CYCTFrameParser.m */,
+				09603C9B3222B5EA3A369DE6FFC9FA78 /* CYCTFrameParserConfig.h */,
+				6AE5F38B846E70428CFE550F21D2F214 /* CYCTFrameParserConfig.m */,
+				E9D4476F99F186ABA10C8D37F8210E93 /* CYCTImageData.h */,
+				6A5A338ADA395B40D942749B84A80423 /* CYCTImageData.m */,
+				D6FC59BEE0BB7C99250B91073478FBD2 /* CYLabel.h */,
+				B0B22D92E2723E552E683377C6336E87 /* CYLabel.m */,
+			);
+			name = CYAttributesFactory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7547D103F1D29B8E9E6424A38DF511E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A38D56E4D4850F6FE32534F86853FFF /* Pods-TestCYPlayerSwiftUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9226DA702361BED9933F465327D520E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD551B121E73713EA78D0034B419186 /* MASCompositeConstraint.h in Headers */,
+				75FAF4D5D0020C0836C2DAA338DE8E7E /* MASConstraint.h in Headers */,
+				3944EA4209F2DF0B73C684F739456812 /* MASConstraint+Private.h in Headers */,
+				72BD1A9F5380916DF2E860A124CAB743 /* MASConstraintMaker.h in Headers */,
+				160A18D16BC3EB4C4F648EE29DFA39F1 /* MASLayoutConstraint.h in Headers */,
+				3CC0744D9785613DB20C7AF03078C8F9 /* Masonry.h in Headers */,
+				D2D5C3DC620249FAD1961B5EAF981DF7 /* Masonry-umbrella.h in Headers */,
+				6483A2D26CA5E098BB3D562397D3F06A /* MASUtilities.h in Headers */,
+				377A823F0DDF0F66B0ADFD8E18EEA793 /* MASViewAttribute.h in Headers */,
+				BDF4849158C3A5CF959CB807FE5A485B /* MASViewConstraint.h in Headers */,
+				9CF0898B91EC943E2AACA29856ABB28B /* NSArray+MASAdditions.h in Headers */,
+				44062F957B5A7A05E06CF010921766DD /* NSArray+MASShorthandAdditions.h in Headers */,
+				A78BB286E6DBFD980ECDA863E3402C1D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				F598028E497FB767543BE5CBC85416D6 /* View+MASAdditions.h in Headers */,
+				3EDAE2CCA3EA457E2C0E2AAEEB2B1D6F /* View+MASShorthandAdditions.h in Headers */,
+				239ADA71ED8F5FF82682FB197E7A110B /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD8C46B682DDE6CC7C3C41B8DDFFF91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA5844136FD2362E8A6D8E0F89FF28D /* CYAttributedStringKeys.h in Headers */,
+				FC161575F1633DE2AC529E4ADDF5F37B /* CYAttributesFactory.h in Headers */,
+				0AA6ACC3A951066D39B0AB5B83F63053 /* CYAttributesFactoryHeader.h in Headers */,
+				5AED14D8E71E4CDB7FD8148A2B1FDE5F /* CYAttributeWorker.h in Headers */,
+				619FCACB5BA54235B6CD056CA8EEF77B /* CYAudioManager.h in Headers */,
+				364E20B15ED0FD6C4F2A5DE5200CA0D2 /* CYBorderlineView.h in Headers */,
+				224F11CCFB63945FC91057CB758D3F68 /* CYButtonSlider.h in Headers */,
+				36B0C304F49DC59A47EEC564164C2328 /* CYCommonSlider.h in Headers */,
+				DB7CBF9A2E7FEB5DE7BC82375EFCFF56 /* CYCTData.h in Headers */,
+				5DADA682706CC7D8EC76FFFB1B2AC46B /* CYCTFrameParser.h in Headers */,
+				EC7EA645293FB13D8A3F441BAC37FA86 /* CYCTFrameParserConfig.h in Headers */,
+				6B667AE14262B16E1337FF81C16A648C /* CYCTImageData.h in Headers */,
+				07F00AE64A87E43DCB4DCC8A114D9EA5 /* CYFFmpegMetalView.h in Headers */,
+				659B12B98FE86B6D908D7F0E1BC0E7CC /* CYFFmpegPlayer.h in Headers */,
+				6B5D673942D8C6857198D9ABD371DD91 /* CYGCDManager.h in Headers */,
+				34B1A1C09BACF0DEE80422391D7E52C5 /* CYHardwareDecompressVideo.h in Headers */,
+				64440E766E5C782BAA7DE8DEDF9BFF25 /* CYLabel.h in Headers */,
+				224FB8400A882E6C067DF9E1695D9CC7 /* CYLabelSlider.h in Headers */,
+				88E083E964AC1AAE3C2F48E9B64D9C71 /* CYLoadingView.h in Headers */,
+				4DD6B5EFBEAA43A8607D72D3176AD056 /* CYLogger.h in Headers */,
+				DB37DAA8C4BB42A7BDF7C0DD18FC8560 /* CYMoreSettingsFooterViewModel.h in Headers */,
+				39C228140C763278090F514FEC7836D0 /* CYOpenALPlayer.h in Headers */,
+				8881FEA853027CBBB1FC957A0DF287C9 /* CYOrentationObserver.h in Headers */,
+				029BD6FF5ECD382CD89FA92071C37246 /* CYPCMAudioManager.h in Headers */,
+				5B6547E62F0D469A60F3793D5377CE11 /* CYPlayer.h in Headers */,
+				65521D02EED5504A0A82FC4C79279A70 /* CYPlayer-umbrella.h in Headers */,
+				43CEE55047F8A62628C73B9E2D6A0601 /* CYPlayerDecoder.h in Headers */,
+				D78F5101086EB1CBA5F7E93BDD6CEE7C /* CYPlayerGestureControl.h in Headers */,
+				B1DDE05906C44544411C76B08079186D /* CYPlayerGLView.h in Headers */,
+				8075790C26CF18253043822EC9C02BD2 /* CYPlayerMetalShaders.h in Headers */,
+				BA1A07A164A0F053DC296A531F9922F2 /* CYPrompt.h in Headers */,
+				9A5146E804D0CBBC901776143C1A466A /* CYPromptConfig.h in Headers */,
+				40B417AE94172606E2F2D729843A0117 /* CYScreenshotView.h in Headers */,
+				2AF677FE3E93D3E7C0A7A09AF1DE8500 /* CYSlider.h in Headers */,
+				AD6F749EC5D699D379381DABA2AD464C /* CYSonicManager.h in Headers */,
+				962426988C244C6D2285D854CE424954 /* CYTimerControl.h in Headers */,
+				87B1D868BC3C501088C4D3413A08A695 /* CYUIFactory.h in Headers */,
+				75A68E1961A873BAFFDA024B73CAC2DF /* CYUIFactoryHeader.h in Headers */,
+				D3A7A621C3156E0AA41AD05E758A7E8D /* CYVideoPlayer.h in Headers */,
+				0C2CAF2B7309A28647F17607A4D44994 /* CYVideoPlayerAssetCarrier.h in Headers */,
+				1CEFDD2390F640021E5767AD7A16B316 /* CYVideoPlayerBaseView.h in Headers */,
+				D3905ABCF05A1762AE26A2F00EE74640 /* CYVideoPlayerBottomControlView.h in Headers */,
+				07A8D5B601E93E8FF20554FFC6CC4F33 /* CYVideoPlayerCenterControlView.h in Headers */,
+				8EDB95AF2C99DED60F9A627DB90D8B7D /* CYVideoPlayerControlMaskView.h in Headers */,
+				AA28A1487CF55684F9C7334BF6294CAD /* CYVideoPlayerControlView.h in Headers */,
+				AC6554B5B93C19A1E067FB066C9BC2A8 /* CYVideoPlayerControlViewEnumHeader.h in Headers */,
+				13D912863A009F7FF9DB2A103E3C749C /* CYVideoPlayerDraggingProgressView.h in Headers */,
+				EACF82817D2D7515FE670E13BCF74F37 /* CYVideoPlayerLeftControlView.h in Headers */,
+				01094498DD78AA788D46230033C46F28 /* CYVideoPlayerMoreSetting.h in Headers */,
+				5AEDCD16FC4F28208E7CCDBD33A96AB9 /* CYVideoPlayerMoreSettingsColCell.h in Headers */,
+				D0CE10477585A7A12CEC468D0410B505 /* CYVideoPlayerMoreSettingSecondary.h in Headers */,
+				335D408EE6A9CE389B001E02D39622AF /* CYVideoPlayerMoreSettingSecondaryColCell.h in Headers */,
+				3D739A9F493BB2574B0395C9C7BD96AB /* CYVideoPlayerMoreSettingSecondaryView.h in Headers */,
+				CC1881F8498E679B120DD42E6302C6D5 /* CYVideoPlayerMoreSettingsFooterSlidersView.h in Headers */,
+				4CEEF566A5466C32022519C3C19F3A9A /* CYVideoPlayerMoreSettingsSecondaryHeaderView.h in Headers */,
+				223CD19EAE3CF1968278C6DC0826CB8B /* CYVideoPlayerMoreSettingsView.h in Headers */,
+				EB70F9CF557EA397FC464551DBC1AC45 /* CYVideoPlayerPresentView.h in Headers */,
+				78F984246C95046DCE3D6189505F02DD /* CYVideoPlayerPreviewCollectionViewCell.h in Headers */,
+				18FB03E9547590FF9FC7013742408F39 /* CYVideoPlayerPreviewView.h in Headers */,
+				5A3E24D0FDD20B2B543A0E95200B59D2 /* CYVideoPlayerRegistrar.h in Headers */,
+				628FC230390AECB1DA522AD6EC8065B6 /* CYVideoPlayerResources.h in Headers */,
+				4284FD996C6213025ACFB77514514D3D /* CYVideoPlayerSelectTableView.h in Headers */,
+				F1F8347A6858CDF58EA0B94A5516ACFA /* CYVideoPlayerSettings.h in Headers */,
+				D807B04A9C59400ED86C0A665491B17A /* CYVideoPlayerState.h in Headers */,
+				DA5C28BD64FCCA8722032D3F1B77BD94 /* CYVideoPlayerTipsView.h in Headers */,
+				3356A4137BFFD3E84C7AE766750F9D1A /* CYVideoPlayerTopControlView.h in Headers */,
+				D7B547E73447A4E869DA1D95AE5ACC2E /* CYVideoPlayerView.h in Headers */,
+				720F5E503D0AA733A109A8E05665603C /* CYVolBrigControl.h in Headers */,
+				ECA4D1841E5DF7140154940A3580457F /* NSObject+CYObserverHelper.h in Headers */,
+				07F521822546BFCB071EEE1C7F5EA674 /* PlayESView.h in Headers */,
+				202C678F505BB5B2BEE86A794E30B1D1 /* sonic.h in Headers */,
+				58718CA8ECC374505D95D69E3DBB4EB1 /* UIImagePickerController+Extension.h in Headers */,
+				0D3ABB1255BBF191BD59C595FC2FED4F /* UINavigationController+CYVideoPlayerAdd.h in Headers */,
+				78D7B12E24338971CA5CC40FB0B63B43 /* UIResponder+CYExtension.h in Headers */,
+				3D2984EFAD8B5FEEFFC040E693488A4B /* UIView+CYUIFactory.h in Headers */,
+				886CFC60115D041CAD0E42C2A794C62C /* UIViewController+CYExtension.h in Headers */,
+				9F6B96EF7144BA3EC763C7656D90E192 /* UIViewController+CYVideoPlayerAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4780FFFE5EBD673ED3FCC33406795CCD /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				9226DA702361BED9933F465327D520E1 /* Headers */,
+				10853A38345AEDA92049C1CFD882D195 /* Sources */,
+				630C9C3472F4F926DC429621774C7A4B /* Frameworks */,
+				E3376F9D3379E09CB16CFEF4201603CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0950F7DBC73EC9ED22FE6C2437A39D5 /* CYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD31C56E2A67D51DED108EDB78CC7275 /* Build configuration list for PBXNativeTarget "CYPlayer" */;
+			buildPhases = (
+				CAD8C46B682DDE6CC7C3C41B8DDFFF91 /* Headers */,
+				CD469FCB28367E7D28EA86E037E11900 /* Sources */,
+				83FBA85D872AD0DCEE9B24CE300037A1 /* Frameworks */,
+				39544E2C2C86BB623C46D5F81453B806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E2D18301C2CB17F45CE116FB9E76FB2 /* PBXTargetDependency */,
+				62C1AE0122DB9178D46908AF3BCF7071 /* PBXTargetDependency */,
+			);
+			name = CYPlayer;
+			productName = CYPlayer;
+			productReference = 32A1D2E2A8F22FF77CBB8EB67AC7E970 /* CYPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+		A225CA6CF59B131E711424CDDC1A2A24 /* Pods-TestCYPlayerSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5268661EAC157D7A9D74977EC163022 /* Build configuration list for PBXNativeTarget "Pods-TestCYPlayerSwiftUI" */;
+			buildPhases = (
+				7547D103F1D29B8E9E6424A38DF511E7 /* Headers */,
+				D025DB1B1846C6E8B7DF9A4505F1B581 /* Sources */,
+				DB47E868503EE032B0B800597CC40F83 /* Frameworks */,
+				263D44D09ED90819C4C4B9DA1114CA8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8018A906479DDC4E3E0827CF42B7FFA4 /* PBXTargetDependency */,
+				F1683A3C5B09CC0EF610419151D136A4 /* PBXTargetDependency */,
+				14E87A7BDBD12663ABA34FEF5DEDF700 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestCYPlayerSwiftUI";
+			productName = Pods_TestCYPlayerSwiftUI;
+			productReference = FBAAAD45EFFC55B10CD24DEB24375515 /* Pods-TestCYPlayerSwiftUI */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 41DD84EB9B81133CDFDB33F7000340FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A25B28D906E3E72C742C6768179753 /* CYFFmpeg */,
+				A0950F7DBC73EC9ED22FE6C2437A39D5 /* CYPlayer */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				A225CA6CF59B131E711424CDDC1A2A24 /* Pods-TestCYPlayerSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263D44D09ED90819C4C4B9DA1114CA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39544E2C2C86BB623C46D5F81453B806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25845EBC45C384F572874557A97348F7 /* CYVideoPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3376F9D3379E09CB16CFEF4201603CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10853A38345AEDA92049C1CFD882D195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C174A84D3D266601F31BAC6084E3F5DD /* MASCompositeConstraint.m in Sources */,
+				6CFE84F1469782802241813FD580C619 /* MASConstraint.m in Sources */,
+				032862AAA97548FA5DB647CB2CCDC927 /* MASConstraintMaker.m in Sources */,
+				995E36632F7A2493D447A0DA174A6F2A /* MASLayoutConstraint.m in Sources */,
+				151DA28C8A8461FC57603FF0072D6F94 /* Masonry-dummy.m in Sources */,
+				1378B4DE00F9077E0D450CDAAE78010B /* MASViewAttribute.m in Sources */,
+				3AAE2672A3A55B32A45EE5236A6CBA9B /* MASViewConstraint.m in Sources */,
+				E3B71064F5232DB3855668DC8E198074 /* NSArray+MASAdditions.m in Sources */,
+				078A4F76C037F93A52F92F2A87C5E23E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				AFA269C9ABC1851F91220E17FFA8724B /* View+MASAdditions.m in Sources */,
+				F17C8BE4BCC9F25C864689C37650613E /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD469FCB28367E7D28EA86E037E11900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AE49CFC94CCEB93EF4D035B3A4F748 /* CYAttributedStringKeys.m in Sources */,
+				190613F44A8911CF22203DE5B3B4F69D /* CYAttributesFactory.m in Sources */,
+				F1F4F3CD2D8DF6039CDB7ADA48575A13 /* CYAttributeWorker.m in Sources */,
+				FF49B11A26DF8441B2F248A112BAACE9 /* CYAudioManager.m in Sources */,
+				1AFCD7825AB7E129EF4E7B5E8E51EEE7 /* CYBorderlineView.m in Sources */,
+				937F91070BEB4C70F5F1FE8E88E15CDB /* CYButtonSlider.m in Sources */,
+				1D0B6D4367F31FA55A4B47E6112AFD93 /* CYCommonSlider.m in Sources */,
+				685DDC37A8B6C2CF9CC7ED5958041C96 /* CYCTData.m in Sources */,
+				35662592545D9FEB3B22C06C493BFF2C /* CYCTFrameParser.m in Sources */,
+				C21B50775BD8CCF772D6335E15C4F85C /* CYCTFrameParserConfig.m in Sources */,
+				5F411C45DEAA4CEB2B3C96A571F422BE /* CYCTImageData.m in Sources */,
+				33272B1439E856951CCAAFC8C082F5DF /* CYFFmpegMetalView.m in Sources */,
+				8F193FC872C1BFC3EF44947C8849623C /* CYFFmpegPlayer.m in Sources */,
+				9AA96DD01B3EC7A159A240B54B8110ED /* CYGCDManager.m in Sources */,
+				DCAD5CB1DCE7260D9CDD4998F4F549D2 /* CYHardwareDecompressVideo.m in Sources */,
+				32AA04756D267404426FBCB1BDBA0A59 /* CYLabel.m in Sources */,
+				235AE808FD25DB9580F4C378BF7A2CF1 /* CYLabelSlider.m in Sources */,
+				0496345245708352DE4106A7A2AB838B /* CYLoadingView.m in Sources */,
+				B9C6CC0B26C1288A4D33EDD2A8A6AF53 /* CYMoreSettingsFooterViewModel.m in Sources */,
+				4393399172233AC24605604F6BF631B7 /* CYOpenALPlayer.m in Sources */,
+				D7591AB94C41E0D16BD6BAAB35E0C77A /* CYOrentationObserver.m in Sources */,
+				512B6CCF8A371DCEA32AEDDD6B3B9B34 /* CYPCMAudioManager.m in Sources */,
+				B06CED6C71E5BAD1CA092B08E9C31F53 /* CYPlayer-dummy.m in Sources */,
+				2EA65F22A8A54979A3213D1008A93F87 /* CYPlayerDecoder.m in Sources */,
+				298BA123031A86C7C8DC24A3FCF098D3 /* CYPlayerGestureControl.m in Sources */,
+				38A073EC9397FDAFCB0DE3F5D1FAB14B /* CYPlayerGLView.m in Sources */,
+				DE22711C29C2986E3FE27B68797E8774 /* CYPrompt.m in Sources */,
+				28392E4EAF6961452E9866A364A21FB8 /* CYPromptConfig.m in Sources */,
+				A9CD0D0FBFBB240B071C188E7C8BA807 /* CYScreenshotView.m in Sources */,
+				EF530E25D8CD64FBA5301D6A907A0DA4 /* CYSlider.m in Sources */,
+				C3D33B346BAA08699284E6352BB5F190 /* CYSonicManager.mm in Sources */,
+				D2C23F4183B77869E806543B768B18C9 /* CYTimerControl.m in Sources */,
+				B851FC4E815A1ADF709DEEA898D9C1C2 /* CYUIFactory.m in Sources */,
+				64662A964524AAC78E3CAA9487115249 /* CYVideoPlayer.m in Sources */,
+				0027D5EF2B2154B874EB0E313C7E0764 /* CYVideoPlayerAssetCarrier.m in Sources */,
+				270BD989082A0F11357933ABC32FFF19 /* CYVideoPlayerBaseView.m in Sources */,
+				0476F5D2198C2F481F6B69E4ED0C63F9 /* CYVideoPlayerBottomControlView.m in Sources */,
+				EB9BBDF4FAACB958180E5EF05823C84E /* CYVideoPlayerCenterControlView.m in Sources */,
+				CF379E3F1BD507807944C8D420A7CCD5 /* CYVideoPlayerControlMaskView.m in Sources */,
+				FDA438E74320AFF7CE807C3C3A595DD9 /* CYVideoPlayerControlView.m in Sources */,
+				A0256FF1603DEE27D8D7641BE0508B54 /* CYVideoPlayerDraggingProgressView.m in Sources */,
+				0265F7F691D971736B6984BF7C0F1859 /* CYVideoPlayerLeftControlView.m in Sources */,
+				206A415A07DD20D2403EDF141858112F /* CYVideoPlayerMoreSetting.m in Sources */,
+				8EBC1AAD150113DC05223C7EC602D233 /* CYVideoPlayerMoreSettingsColCell.m in Sources */,
+				3849C809AC8794F58F555790AA12A40D /* CYVideoPlayerMoreSettingSecondary.m in Sources */,
+				42ECBE5CD65CA7309CDE0C19430F4A26 /* CYVideoPlayerMoreSettingSecondaryColCell.m in Sources */,
+				0106483D01C34CE00C1474AC56F95A1D /* CYVideoPlayerMoreSettingSecondaryView.m in Sources */,
+				4A8F92B797ADC733C1EC703712B1CC1C /* CYVideoPlayerMoreSettingsFooterSlidersView.m in Sources */,
+				8F2783054135BB73D90AB03C15FEDB5C /* CYVideoPlayerMoreSettingsSecondaryHeaderView.m in Sources */,
+				821352820F5006E7A2CDBD3C46E64AA4 /* CYVideoPlayerMoreSettingsView.m in Sources */,
+				12244A5A5444BE465E107234D83A2574 /* CYVideoPlayerPresentView.m in Sources */,
+				386AB041E6DDDB5EAF32D3761540912B /* CYVideoPlayerPreviewCollectionViewCell.m in Sources */,
+				8B292BB63A603E8A97BA8160D37BD9B0 /* CYVideoPlayerPreviewView.m in Sources */,
+				02F098E0CB3C4182126AF7BEFF837C3C /* CYVideoPlayerRegistrar.m in Sources */,
+				5E5647FB7AD7BD0BCD9CDB746E5A12F4 /* CYVideoPlayerResources.m in Sources */,
+				A518CD696B9800A1C2525977D2E6B71B /* CYVideoPlayerSelectTableView.m in Sources */,
+				646495000639B071D92338A8A2B990D5 /* CYVideoPlayerSettings.m in Sources */,
+				802CF912E824235CEB067E7C30CDE183 /* CYVideoPlayerTipsView.m in Sources */,
+				F7ADE754E7CCE956EAF3D8EF649CAAE8 /* CYVideoPlayerTopControlView.m in Sources */,
+				AAA91DBC89EF638E7DBA19FE75825518 /* CYVideoPlayerView.m in Sources */,
+				0308C840EAA76013B4EEFEC831C01BE2 /* CYVolBrigControl.m in Sources */,
+				65CC18914568DD3F5FCFE45F8B0885C2 /* NSObject+CYObserverHelper.m in Sources */,
+				773EB2D4965110D138731196157E2722 /* PlayESView.m in Sources */,
+				0732BBF130BF2BE8B6E0502F7923B417 /* sonic.cpp in Sources */,
+				A8F0308E9FCA1EFDDDBD7BB20C38954A /* UIImagePickerController+Extension.m in Sources */,
+				1718C8E53D3F99C43AC8D02474C1E422 /* UINavigationController+CYVideoPlayerAdd.m in Sources */,
+				38B1B64A29DD55F4CC74FEDE8F0A9722 /* UIResponder+CYExtension.m in Sources */,
+				AB82799BD6D3B3B3654E56975110C123 /* UIView+CYUIFactory.m in Sources */,
+				020217A77EC7615373EE846E1C3BC5C3 /* UIViewController+CYExtension.m in Sources */,
+				97D241A849ED59F85C5C097253C5CD75 /* UIViewController+CYVideoPlayerAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025DB1B1846C6E8B7DF9A4505F1B581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D186F7594A7E36468530D36C80877FDB /* Pods-TestCYPlayerSwiftUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E87A7BDBD12663ABA34FEF5DEDF700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = BDA6716E2EAF0D8628E4FE851D519D0D /* PBXContainerItemProxy */;
+		};
+		4E2D18301C2CB17F45CE116FB9E76FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYFFmpeg;
+			target = 66A25B28D906E3E72C742C6768179753 /* CYFFmpeg */;
+			targetProxy = B8BD25A837E216607D4A623C7F6ED9C8 /* PBXContainerItemProxy */;
+		};
+		62C1AE0122DB9178D46908AF3BCF7071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = E821F9FFB6351F3FA69492920676C1B0 /* PBXContainerItemProxy */;
+		};
+		8018A906479DDC4E3E0827CF42B7FFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYFFmpeg;
+			target = 66A25B28D906E3E72C742C6768179753 /* CYFFmpeg */;
+			targetProxy = 9CBF4521FECDA541EA190DA2FF70FC98 /* PBXContainerItemProxy */;
+		};
+		F1683A3C5B09CC0EF610419151D136A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYPlayer;
+			target = A0950F7DBC73EC9ED22FE6C2437A39D5 /* CYPlayer */;
+			targetProxy = DB11496CA94A3F5B9D043274B0ED43C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AA09D792BB063491F1E1253E303077A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE0FA7E4F949E8CB14FB532A541ADBA /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C25054746C753F72C5A2D6F52EF0E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 910DA82BE4D0ABD3D98885999FE7D416 /* CYFFmpeg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B9A128681EB8DCCEB247FABE33CC5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C678F428904CB2904F6FA85AEC505C82 /* CYFFmpeg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		921809E6C123BA86C4B305C15835A85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D622DBF9AEDB5FD06EBCD1B98A4AF60E /* CYPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYPlayer/CYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYPlayer/CYPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYPlayer/CYPlayer.modulemap";
+				PRODUCT_MODULE_NAME = CYPlayer;
+				PRODUCT_NAME = CYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2C8FC0E8B17E15D3D85625A152A28EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0652EE3A7F81279937214576FEB6FA10 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACB21E9ED0D85B0FB53C16E7E31845C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEED41732E649F594A7DEB483954DC0 /* Pods-TestCYPlayerSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD7548BABD744AFCB3120ED2B68768E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0F45364FC3236B176B2AF955A389BA /* CYPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYPlayer/CYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYPlayer/CYPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYPlayer/CYPlayer.modulemap";
+				PRODUCT_MODULE_NAME = CYPlayer;
+				PRODUCT_NAME = CYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F141F40DDB3932F9B4FD7AAB69D63095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09004C2883CE8652BB47F2865B0FE46E /* Pods-TestCYPlayerSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCYPlayerSwiftUI/Pods-TestCYPlayerSwiftUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085A2A587F9E59FC1C6007FF2A1B9135 /* Build configuration list for PBXAggregateTarget "CYFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C25054746C753F72C5A2D6F52EF0E47 /* Debug */,
+				7B9A128681EB8DCCEB247FABE33CC5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4780FFFE5EBD673ED3FCC33406795CCD /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA09D792BB063491F1E1253E303077A /* Debug */,
+				B2C8FC0E8B17E15D3D85625A152A28EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5268661EAC157D7A9D74977EC163022 /* Build configuration list for PBXNativeTarget "Pods-TestCYPlayerSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F141F40DDB3932F9B4FD7AAB69D63095 /* Debug */,
+				CACB21E9ED0D85B0FB53C16E7E31845C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD31C56E2A67D51DED108EDB78CC7275 /* Build configuration list for PBXNativeTarget "CYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921809E6C123BA86C4B305C15835A85A /* Debug */,
+				DD7548BABD744AFCB3120ED2B68768E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
