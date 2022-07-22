@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         })
         
         //初始化播放器
-        player  = CYFFmpegPlayer.movieView(withContentPath: "https://vodplay.yayi360.com/liveRecord/46eca58c0ccf5b857fa76cb3c9fea487/dentalink-vod/515197938314592256/2020-08-17-12-18-39_2020-08-17-12-48-39.m3u8", parameters: nil) as? CYFFmpegPlayer
+        player  = CYFFmpegPlayer.movieView(withContentPath: "https://vodplay.com/liveRecord/46eca58c0ccf5b857fa76cb3c9fea487/dentalink-vod/515197938314592256/2020-08-17-12-18-39_2020-08-17-12-48-39.m3u8", parameters: nil) as? CYFFmpegPlayer
         
         
 //        let definition =  CYFFmpegPlayerDefinitionType.LHD.rawValue | CYFFmpegPlayerDefinitionType.LLD.rawValue | CYFFmpegPlayerDefinitionType.LSD.rawValue | CYFFmpegPlayerDefinitionType.LUD.rawValue
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             }
 //            settings
             settings?.nextAutoPlaySelectionsPath = { () -> String in
-                return "https://vodplay.yayi360.com/liveRecord/46eca58c0ccf5b857fa76cb3c9fea487/dentalink-vod/515197938314592256/2020-08-17-12-18-39_2020-08-17-12-48-39.m3u8"
+                return "https://vodplay.com/liveRecord/46eca58c0ccf5b857fa76cb3c9fea487/dentalink-vod/515197938314592256/2020-08-17-12-18-39_2020-08-17-12-48-39.m3u8"
             }
         })
         self.openLandscape()
@@ -59,7 +59,10 @@ class ViewController: UIViewController {
             
             contentView?.mas_remakeConstraints({ (make) in
                 make?.top.bottom().equalTo()(0)
-                make?.left.right().equalTo()(0)
+//                make?.left.right().equalTo()(0)
+//                make?.leading.trailing().offset()(0)
+                make?.center.offset()(0)
+                make?.height.equalTo()(contentView?.mas_width)?.multipliedBy()(9.0 / 16.0)
             })
         } else {
             contentView?.mas_remakeConstraints({ (make) in
