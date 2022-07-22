@@ -36,7 +36,6 @@ class ViewController: UIViewController {
                 return "https://vodplay.yayi360.com/liveRecord/46eca58c0ccf5b857fa76cb3c9fea487/dentalink-vod/515197938314592256/2020-08-17-12-18-39_2020-08-17-12-48-39.m3u8"
             }
         })
-        
         self.openLandscape()
 //        player.
         player?.isAutoplay = true

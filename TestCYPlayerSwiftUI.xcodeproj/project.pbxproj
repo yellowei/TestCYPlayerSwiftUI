@@ -15,7 +15,7 @@
 		BC20F3FD288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F3FC288556EE00C312E9 /* TestCYPlayerSwiftUITests.swift */; };
 		BC20F407288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F406288556EE00C312E9 /* TestCYPlayerSwiftUIUITests.swift */; };
 		BC20F409288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F408288556EE00C312E9 /* TestCYPlayerSwiftUIUITestsLaunchTests.swift */; };
-		BC20F416288557D100C312E9 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F415288557D100C312E9 /* PlayVC.swift */; };
+		BC855355288AC59E00C78F32 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20F415288557D100C312E9 /* PlayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -330,7 +330,7 @@
 			files = (
 				BC20F3EE288556EA00C312E9 /* ContentView.swift in Sources */,
 				BC20F3EC288556EA00C312E9 /* TestCYPlayerSwiftUIApp.swift in Sources */,
-				BC20F416288557D100C312E9 /* PlayVC.swift in Sources */,
+				BC855355288AC59E00C78F32 /* PlayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
